@@ -1,14 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <v-toolbar-title>
-        <router-link to="/" class="white--text text-decoration-none">DR</router-link>
-      </v-toolbar-title>
-    </v-app-bar>
+    <app-header />
 
     <v-main>
       <router-view />
@@ -17,8 +9,12 @@
 </template>
 
 <script>
+import AppHeader from '@/components/app-header'
+
 export default {
   name: 'App',
-  components: {},
+  components: {
+    AppHeader
+  },
 };
 </script>
