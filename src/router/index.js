@@ -6,8 +6,13 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: () => import(/* webpackChunkName: "home" */ "../views/Home.vue"),
+    name: "Introduction",
+    component: () => import(/* webpackChunkName: "Introduction" */ "../views/Introduction.vue"),
+  },
+  {
+    path: "/:id",
+    name: "LayerGroup",
+    component: () => import(/* webpackChunkName: "LayerGroup" */ "../views/LayerGroup.vue"),
   },
 ];
 
