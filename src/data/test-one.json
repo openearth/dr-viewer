@@ -1,0 +1,98 @@
+[
+    {
+        "id": "geological-layout",
+        "name": "Geological Layout",
+        "children": [
+            {
+                "id": "chw2:BDTICM_M_250m_ll",
+                "name": "Depth to bedrock (cm)",
+                "layer": "chw2:BDTICM_M_250m_ll",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            },
+            {
+                "id": "chw2:elevtn_1k",
+                "name": "MERIT",
+                "layer": "chw2:elevtn_1k",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            },
+            {
+                "id": "chw2:sediment",
+                "name": "Sediment Balance",
+                "layer": "chw2:sediment",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            },
+            {
+                "id": "chw2:GLiM",
+                "name": "Global Lithology",
+                "layer": "chw2:GLiM",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            }
+        ]
+    },
+    {
+        "id": "landuse-vegetation",
+        "name": "Landuse/vegetation",
+        "children": [
+            {
+                "id": "chw2:GLOBCOVER_L4_200901_200912_V2.3",
+                "name": "GLOBCOVER (v2.3)",
+                "layer": "chw2:GLOBCOVER_L4_200901_200912_V2.3",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            },
+            {
+                "id": "chw2:corals",
+                "name": "corals",
+                "layer": "chw2:corals",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            },
+            {
+                "id": "chw2:mangroves",
+                "name": "mangroves",
+                "layer": "chw2:mangroves",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            },
+            {
+                "id": "chw2:saltmarshes",
+                "name": "saltmarshes",
+                "layer": "chw2:saltmarshes",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            }
+        ]
+    },
+    {
+        "id": "coast",
+        "name": "Coast",
+        "children": [
+            {
+                "id": "chw2:estuaries",
+                "name": "Estuaries",
+                "layer": "chw2:estuaries",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            }
+        ]
+    },
+    {
+        "id": "social",
+        "name": "Social",
+        "children": [
+            {
+                "id": "chw2:gar",
+                "name": "Gar",
+                "layer": "chw2:gar",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            }
+        ]
+    },
+    {
+        "id": "oceanographics",
+        "name": "Oceanographics",
+        "children": [
+            {
+                "id": "chw2:gtsm_waterlevel_rp100",
+                "name": "Waterlevel",
+                "layer": "chw2:gtsm_waterlevel_rp100",
+                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+            }
+        ]
+    }
+]

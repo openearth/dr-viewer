@@ -9,16 +9,16 @@
 </template>
 
 <script>
-import AppHeader from '@/components/app-header'
-import AppSidebar from '@/components/app-sidebar'
-import MapboxMap from '@/components/mapbox-map'
+import AppHeader from "@/components/app-header";
+import AppSidebar from "@/components/app-sidebar";
+import MapboxMap from "@/components/mapbox-map";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     AppHeader,
     AppSidebar,
-    MapboxMap
-  }
+    MapboxMap,
+  },
 };
 </script>

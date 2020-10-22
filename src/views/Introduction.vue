@@ -1,9 +1,7 @@
 <template>
   <div class="pa-4 home d-flex flex-column">
     <div>
-      <h2 class="h2">
-        Introduction
-      </h2>
+      <h2 class="h2">Introduction</h2>
 
       <v-divider class="mt-4 mb-4" />
     </div>
@@ -22,8 +20,8 @@ import content from "@/content/introduction.md";
 export default {
   data() {
     return {
-      content
-    }
-  }
-}
+      content,
+    };
+  },
+};
 </script>
