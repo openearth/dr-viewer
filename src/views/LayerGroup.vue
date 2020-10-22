@@ -5,8 +5,9 @@
 </template>
 
 <script>
-
 export default {
-  components: {}
+  components: {},
+  mounted() {
+  }
 }
 </script>
