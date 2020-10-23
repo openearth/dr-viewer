@@ -9,6 +9,9 @@
     <v-spacer />
 
     <v-tabs background-color="primary" dark right style="width: auto">
+      <v-tab :to="{ name: 'Introduction' }">
+        Introduction
+      </v-tab>
       <v-tab
         v-for="page in pages"
         :key="page.id"
@@ -16,7 +19,6 @@
           name: 'LayerGroup',
           params: { id: page.id },
         }"
-        exact
       >
         {{ page.name }}
       </v-tab>
