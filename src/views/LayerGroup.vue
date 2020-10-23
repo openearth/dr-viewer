@@ -1,11 +1,14 @@
 <template>
   <div>
-    <layer-list :layers="layers" @change="handleChange" />
+    <layer-list
+      :layers="layers"
+      @change="handleChange"
+    />
   </div>
 </template>
 
 <script>
-import LayerList from "@/components/layer-list";
+import LayerList from '@/components/layer-list';
 
 export default {
   components: {
@@ -18,8 +21,8 @@ export default {
     },
   },
   methods: {
-    handleChange(e) {
-      console.log(e);
+    handleChange(layers) {
+      this.$emit('layersUpdate', layers)
     },
   },
 };

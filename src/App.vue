@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <app-header />
-    <app-sidebar />
+    <app-sidebar @layersUpdate="layers = $event" />
     <v-main>
-      <mapbox-map />
+      <mapbox-map :layers="layers" />
     </v-main>
   </v-app>
 </template>
@@ -20,5 +20,10 @@ export default {
     AppSidebar,
     MapboxMap,
   },
+  data() {
+    return {
+      layers: []
+    }
+  }
 };
 </script>

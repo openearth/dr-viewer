@@ -21,7 +21,7 @@
         >
           <v-icon
             >mdi-card-bulleted{{
-              item.id === activeLegend ? "" : "-off"
+              item.id === activeLegend ? '' : '-off'
             }}-outline</v-icon
           >
         </v-btn>
@@ -31,10 +31,12 @@
 </template>
 
 <script>
-import findInTree from "./find-in-tree";
-import { Sortable } from "sortablejs";
-const idSelector = "data-id";
-const parentIdSelector = "data-parent-id";
+import findInTree from './find-in-tree';
+import arrayMove from './array-move';
+import addIndex from './add-index';
+import deleteIndex from './delete-index';
+import { Sortable } from 'sortablejs';
+const parentIdSelector = 'data-parent-id';
 
 export default {
   props: {
@@ -49,7 +51,7 @@ export default {
   },
   data: () => ({
     input: null,
-    selected: null,
+    selected: [],
   }),
   computed: {
     layersWithParents() {
@@ -73,16 +75,7 @@ export default {
       return {
         animation: 150,
         onUpdate: (event) => {
-          const { oldDraggableIndex, newDraggableIndex, item: $item } = event;
-          const $handle = $item.querySelector(".sortable-handle");
-          const id = $handle.getAttribute(idSelector);
-          const parentId = $handle.getAttribute(parentIdSelector);
-          this.$emit("reorder", {
-            oldDraggableIndex,
-            newDraggableIndex,
-            id,
-            parentId,
-          });
+          this.handleOrderUpdate(event);
         },
       };
     },
@@ -94,8 +87,8 @@ export default {
   },
   methods: {
     initSortable() {
-      const $rootEl = document.querySelector(".v-treeview");
-      const $childEls = document.querySelectorAll(".v-treeview-node__children");
+      const $rootEl = document.querySelector('.v-treeview');
+      const $childEls = document.querySelectorAll('.v-treeview-node__children');
       const $sortableEls = [$rootEl, ...$childEls];
       $sortableEls.forEach(this.makeSortable);
     },
@@ -103,11 +96,32 @@ export default {
       Sortable.create(el, this.sortableConfig);
     },
     handleChange(ids) {
-      const layers = ids.map((id) => findInTree(this.layers, "id", id));
-      this.$emit("change", layers);
+      this.selected = ids.map((id) => findInTree(this.layers, 'id', id).id);
+
+      this.emitOutPut()
+    },
+    handleOrderUpdate(event) {
+      const { oldDraggableIndex, newDraggableIndex, item: $item } = event;
+
+      const $handle = $item.querySelector('.sortable-handle');
+      const parentId = $handle.getAttribute(parentIdSelector);
+
+      const list = parentId ? this.layers.find(({ id }) => parentId === id).children : this.layers
+      arrayMove(list, oldDraggableIndex, newDraggableIndex)
+
+      this.emitOutPut()
     },
     handleLegendClick(id) {
-      this.$emit("legendChange", id);
+      this.$emit('legendChange', id);
+    },
+    emitOutPut() {
+      const withIndex = addIndex(this.layers)
+      const layers = this.selected.map(id => findInTree(withIndex, 'id', id))
+      const sortedLayers = layers
+        .sort((a, b) => b.index - a.index)
+        .map(deleteIndex)
+
+      this.$emit('change', sortedLayers);
     },
   },
 };

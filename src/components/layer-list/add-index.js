@@ -3,7 +3,7 @@ function inverseIndex(arr, index) {
   return arr.length - index 
 } 
 
-export default function addZIndex(layers) {
+export default function addIndex(layers) {
   return layers.map((layer, index) => {
     if (layer.children) {
       const inversedIndex = inverseIndex(layers, index);
