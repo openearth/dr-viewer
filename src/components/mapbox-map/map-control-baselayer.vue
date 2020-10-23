@@ -72,8 +72,6 @@ export default {
           (source) => source.type === "raster" || source.type === "geojson"
         );
 
-      console.log(customSources, customLayers);
-
       // switch style
       map.setStyle(style);
       this.currentLayerIndex = nextIndex;
@@ -91,9 +89,8 @@ export default {
 
           map.addSource(id, source);
         });
-        customLayers.forEach((layer) => map.addLayer(layer));
 
-        console.log(map.getStyle());
+        customLayers.forEach((layer) => map.addLayer(layer));
       });
     },
 
