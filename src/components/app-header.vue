@@ -9,7 +9,7 @@
     <v-spacer />
 
     <v-tabs background-color="primary" dark right style="width: auto">
-      <v-tab :to="{ name: 'Introduction' }">
+      <v-tab :to="{ name: 'Introduction' }" exact>
         {{ $t('introduction') }}
       </v-tab>
       <v-tab
@@ -27,16 +27,12 @@
 </template>
 
 <script>
-import extractExtension from '@/lib/extract-extension';
-import toRoute from '@/lib/to-route';
-
-// eslint-disable-next-line
-const pages = LAYER_PAGES.map(extractExtension).map(toRoute);
+import pages from '@/lib/get-data-pages'
 
 export default {
   data() {
     return {
-      pages,
+      pages 
     };
   },
 };

@@ -9,13 +9,20 @@
     <div v-html="content" />
 
     <div class="d-flex pt-4">
-      <v-btn class="primary ml-auto">{{ $t('get_started') }}</v-btn>
+      <v-btn class="primary ml-auto" :to="nextPage.id">{{ $t('get_started') }}</v-btn>
     </div>
   </div>
 </template>
 
 <script>
+import pages from '@/lib/get-data-pages'
+
 export default {
+  data() {
+    return {
+      nextPage: pages[0]
+    }
+  },
   computed: {
     content() {
       return require(`@/content/${this.$i18n.locale}/introduction.md`)
