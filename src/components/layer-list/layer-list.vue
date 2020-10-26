@@ -11,19 +11,18 @@
           class="sortable-handle"
           :data-id="item.id"
           :data-parent-id="item.parentId"
-          >{{ item.name }}</span
-        >
+        >{{ item.name }}</span>
         <v-btn
           v-if="item.layer && selected"
           icon
           class="ml-auto"
           @click="handleLegendClick(item.id)"
         >
-          <v-icon
-            >mdi-card-bulleted{{
+          <v-icon>
+            mdi-card-bulleted{{
               item.id === activeLegend ? '' : '-off'
-            }}-outline</v-icon
-          >
+            }}-outline
+          </v-icon>
         </v-btn>
       </div>
     </template>
@@ -44,14 +43,11 @@ export default {
       type: Array,
       required: true,
     },
-    activeLegend: {
-      type: String,
-      default: null,
-    },
   },
   data: () => ({
     input: null,
     selected: [],
+    activeLegend: ''
   }),
   computed: {
     layersWithParents() {
@@ -80,6 +76,11 @@ export default {
       };
     },
   },
+  watch: {
+    activeLegend(value) {
+      this.$emit('legendChange', value)
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.initSortable();
@@ -97,7 +98,9 @@ export default {
     },
     handleChange(ids) {
       this.selected = ids.map((id) => findInTree(this.layers, 'id', id).id);
+      const id = ids[ids.length - 1]
 
+      this.setActiveLegend(id)
       this.emitOutPut()
     },
     handleOrderUpdate(event) {
@@ -111,8 +114,21 @@ export default {
 
       this.emitOutPut()
     },
+    setActiveLegend(id) {
+      // if there is only 1 layer selected or the legend layer is not selected anymore 
+      if (this.selected.length === 1 || !this.selected.map(layer => layer.id).includes(this.activeLegend)) {
+        // if no layer is selected, set active layer to null
+        if (!this.selected.length) {
+          this.activeLegend = null
+        }
+
+        this.activeLegend = this.selected[0].id
+      }
+
+      this.activeLegend = id
+    },
     handleLegendClick(id) {
-      this.$emit('legendChange', id);
+      this.activeLegend = id
     },
     emitOutPut() {
       const withIndex = addIndex(this.layers)
