@@ -115,14 +115,17 @@ export default {
       this.emitOutPut()
     },
     setActiveLegend(id) {
-      // if there is only 1 layer selected or the legend layer is not selected anymore 
-      if (this.selected.length === 1 || !this.selected.map(layer => layer.id).includes(this.activeLegend)) {
+      if (this.selected.length === 1) {
+        this.activeLegend = this.selected[0].id
+      }
+
+      if (!this.selected.map(layer => layer.id).includes(this.activeLegend)) {
         // if no layer is selected, set active layer to null
         if (!this.selected.length) {
           this.activeLegend = null
+        } else {
+          this.activeLegend = this.selected[0].id
         }
-
-        this.activeLegend = this.selected[0].id
       }
 
       this.activeLegend = id

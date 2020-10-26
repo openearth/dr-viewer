@@ -2,8 +2,8 @@
   <div>
     <layer-list
       :layers="layers"
-      @change="handleChange"
-      @legendChange="handleLegendChange"
+      @change="$emit('layersUpdate', $event)"
+      @legendChange="$emit('legendUpdate', $event)"
     />
   </div>
 </template>
@@ -25,19 +25,6 @@ export default {
       const { id } = this.$route.params;
       return require(`@/data/${id}`);
     },
-  },
-  watch: {
-    activeLegend(value) {
-      this.$emit('legendUpdate', value)
-    }
-  },
-  methods: {
-    handleChange(layers) {
-      this.$emit('layersUpdate', layers)
-    },
-    handleLegendChange(id) {
-      this.activeLegend = id
-    }
   },
 };
 </script>
