@@ -8,6 +8,7 @@ module.exports = {
     "@voorhoede/deltares-vuetify-theme",
     "vue2mapbox-gl",
   ],
+
   chainWebpack: (config) => {
     config.module
       .rule("markdown")
@@ -27,4 +28,13 @@ module.exports = {
       return definitions;
     });
   },
+
+  pluginOptions: {
+    i18n: {
+      locale: 'es',
+      fallbackLocale: 'en',
+      localeDir: 'locales',
+      enableInSFC: true
+    }
+  }
 };
