@@ -22,6 +22,11 @@
       :key="layer.id"
       :options="layer"
     />
+    <map-legend
+      v-if="legendLayer"
+      :base-url="legendLayerUrl"
+      :legend-layer="legendLayer"
+    />
   </v-mapbox>
 </template>
 
@@ -35,16 +40,22 @@ import {
 import buildWmsLayer from '@/lib/build-wms-layer';
 import MapControlBaselayer from './map-control-baselayer'
 import MapLayer from './map-layer'
+import MapLegend from './map-legend'
 
 export default {
   components: {
     MapControlBaselayer,
-    MapLayer
+    MapLayer,
+    MapLegend
   },
   props: {
     layers: {
       type: Array,
       default: () => []
+    },
+    legendLayer: {
+      type: String,
+      default: null
     }
   },
   watch: {
@@ -69,6 +80,15 @@ export default {
     wmsLayers() {
       return this.layers.map(buildWmsLayer)
     },
+    legendLayerUrl() {
+      const layer = this.layers.find(layer => layer.id === this.legendLayer)
+
+      if (layer) {
+        return layer.url
+      }
+
+      return ''
+    }
   },
   methods: {
     onMapCreated(map) {

@@ -1,9 +1,15 @@
 <template>
   <v-app>
     <app-header />
-    <app-sidebar @layersUpdate="layers = $event" />
+    <app-sidebar
+      @layersUpdate="layers = $event"
+      @legendUpdate="legendLayer = $event"
+    />
     <v-main>
-      <mapbox-map :layers="layers" />
+      <mapbox-map
+        :layers="layers"
+        :legend-layer="legendLayer"
+      />
     </v-main>
   </v-app>
 </template>
@@ -22,7 +28,8 @@ export default {
   },
   data() {
     return {
-      layers: []
+      layers: [],
+      legendLayer: null
     }
   }
 };
