@@ -1,6 +1,7 @@
 <template>
   <div>
     <layer-list
+      :key="this.$route.params.id"
       :layers="layers"
       @change="$emit('layersUpdate', $event)"
       @legendChange="$emit('legendUpdate', $event)"
