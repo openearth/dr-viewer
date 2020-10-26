@@ -9,19 +9,17 @@
     <div v-html="content" />
 
     <div class="d-flex pt-4">
-      <v-btn class="primary ml-auto">Get started</v-btn>
+      <v-btn class="primary ml-auto">{{ $t('get_started') }}</v-btn>
     </div>
   </div>
 </template>
 
 <script>
-import content from "@/content/introduction.md";
-
 export default {
-  data() {
-    return {
-      content,
-    };
-  },
+  computed: {
+    content() {
+      return require(`@/content/${this.$i18n.locale}/introduction.md`)
+    }
+  }
 };
 </script>

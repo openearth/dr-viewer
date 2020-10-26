@@ -10,7 +10,7 @@
 
     <v-tabs background-color="primary" dark right style="width: auto">
       <v-tab :to="{ name: 'Introduction' }">
-        Introduction
+        {{ $t('introduction') }}
       </v-tab>
       <v-tab
         v-for="page in pages"
