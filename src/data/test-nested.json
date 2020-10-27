@@ -16,16 +16,16 @@
                 "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
             },
             {
-                "id": "chw2:sediment",
-                "name": "Sediment Balance",
-                "layer": "chw2:sediment",
-                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
-            },
-            {
-                "id": "chw2:GLiM",
-                "name": "Global Lithology",
-                "layer": "chw2:GLiM",
-                "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+                "id": "coast",
+                "name": "Coast",
+                "children": [
+                    {
+                        "id": "chw2:estuaries",
+                        "name": "Estuaries",
+                        "layer": "chw2:estuaries",
+                        "url": "https://deltaresdata.openearth.eu/geoserver/chw2/ows"
+                    }
+                ]
             }
         ]
     },
