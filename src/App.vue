@@ -31,6 +31,17 @@ export default {
       layers: [],
       legendLayer: null
     }
+  },
+  watch: {
+    '$route'() {
+      this.reset()
+    }
+  },
+  methods: {
+    reset() {
+      this.layers = []
+      this.legendLayer = []
+    }
   }
 };
 </script>
