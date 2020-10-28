@@ -1,18 +1,19 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
+import { importConfig } from "@/lib/config-utils";
+
+// eslint-disable-next-line no-undef
+const locales = LOCALES.map(locale => locale.split('.js')[0])
 
 Vue.use(VueI18n)
 
 function loadLocaleMessages () {
-  const locales = require.context('./locales', true, /[A-Za-z0-9-_,\s]+\.json$/i)
   const messages = {}
-  locales.keys().forEach(key => {
-    const matched = key.match(/([A-Za-z0-9-_]+)\./i)
-    if (matched && matched.length > 1) {
-      const locale = matched[1]
-      messages[locale] = locales(key)
-    }
+
+  locales.map(locale => {
+    messages[locale] = importConfig(`content/${locale}/messages.json`);
   })
+
   return messages
 }
 
