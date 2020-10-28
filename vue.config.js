@@ -10,7 +10,7 @@ const locales = fs.readdirSync(
   path.resolve(projectConfig.configDir, "content")
 );
 
-module.exports = { 
+module.exports = {
   transpileDependencies: [
     "vuetify",
     "@voorhoede/deltares-vuetify-theme",
@@ -51,8 +51,8 @@ module.exports = {
 
   pluginOptions: {
     i18n: {
-      locale: "es",
-      fallbackLocale: "en",
+      locale: projectConfig.locale,
+      fallbackLocale: projectConfig.fallbackLocale || projectConfig.locale,
       localeDir: "locales",
       enableInSFC: true,
     },

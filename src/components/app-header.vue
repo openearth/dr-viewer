@@ -24,19 +24,36 @@
         {{ page.name }}
       </v-tab>
     </v-tabs>
+
+    <template v-if="languages.length > 1">
+      <v-divider
+        class="mx-4"
+        vertical
+      />
+      <language-switcher />
+    </template>
   </v-app-bar>
 </template>
 
 <script>
+import LanguageSwitcher from '@/components/language-switcher'
 import { config } from '@/lib/config-utils';
 import pages from '@/lib/get-data-pages';
 
 export default {
+  components: {
+    LanguageSwitcher
+  },
   data() {
     return {
       pages,
       title: config.shortName,
     };
   },
+  computed: {
+    languages() {
+      return Object.keys(this.$i18n.messages)
+    },
+  }
 };
 </script>
