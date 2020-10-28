@@ -16,6 +16,7 @@
 
 <script>
 import pages from '@/lib/get-data-pages'
+import { importConfig } from '@/lib/config-utils'
 
 export default {
   data() {
@@ -25,7 +26,7 @@ export default {
   },
   computed: {
     content() {
-      return require(`@/content/${this.$i18n.locale}/introduction.md`)
+      return importConfig(`content/${this.$i18n.locale}/introduction.md`)
     }
   }
 };
