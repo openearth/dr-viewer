@@ -3,8 +3,9 @@
     <layer-list-controls
       :key="this.$route.params.id"
       :layers="layers"
-      @active-layers-change="$emit('active-layers-update', $event)"
-      @legend-change="$emit('legend-update', $event)"
+      @layer-sorting-change="onLayerSortingChange"
+      @active-layers-change="onActiveLayerChange"
+      @legend-change="onLegendChange"
     />
   </div>
 </template>
@@ -18,14 +19,33 @@ export default {
   },
   data() {
     return {
-      activeLegend: null
+      activeLegend: null,
+      layers: [],
+      activeLayers: []
     }
   },
-  computed: {
-    layers() {
-      const { id } = this.$route.params;
-      return require(`@/data/${id}`);
-    },
+  watch: {
+    $route: {
+      immediate: true,
+      async handler(newRoute) {
+        const { id } = newRoute.params;
+        this.layers = []
+        await this.$nextTick()
+        this.layers = require(`@/data/${id}`);
+      }
+    }
   },
+  methods: {
+    onLayerSortingChange(newLayers) {
+      this.layers = newLayers
+    },
+    onLegendChange(event) {
+      this.$emit('legend-update', event)
+    },
+    onActiveLayerChange(activeLayers) {
+      this.activeLayers = activeLayers
+      this.$emit('active-layers-update', activeLayers)
+    }
+  }
 };
 </script>
