@@ -1,20 +1,20 @@
 <template>
   <div>
-    <layer-list
+    <layer-list-controls
       :key="this.$route.params.id"
       :layers="layers"
-      @change="$emit('active-layers-update', $event)"
-      @legendChange="$emit('legend-update', $event)"
+      @active-layers-change="$emit('active-layers-update', $event)"
+      @legend-change="$emit('legend-update', $event)"
     />
   </div>
 </template>
 
 <script>
-import LayerList from '@/components/layer-list';
+import { LayerListControls } from 'delta-vue-components';
 
 export default {
   components: {
-    LayerList,
+    LayerListControls,
   },
   data() {
     return {
