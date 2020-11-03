@@ -3,5 +3,9 @@
   "shortName": "DR",
   "i18n": {
     "locale": "en"
+  },
+  "map": {
+    "center": [-70.1654584, 18.7009047],
+    "zoom": 7
   }
 }
