@@ -28,8 +28,10 @@
 </template>
 
 <script>
-import { config } from '@/lib/config-utils';
+import { getProjectConfig } from '@/lib/config-utils';
 import pages from '@/lib/get-data-pages';
+
+const config = getProjectConfig()
 
 export default {
   data() {
