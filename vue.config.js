@@ -1,14 +1,14 @@
 const fs = require("fs");
 const path = require("path");
 const configDir = require("./config").configDir;
-const projectConfig = require(path.join(__dirname, configDir))
+const projectConfig = require(path.join(__dirname, configDir, "project.json"));
 
 const layerPages = fs.readdirSync(
-  path.resolve(projectConfig.configDir, "data")
+  path.resolve(configDir, "data")
 );
 
 const locales = fs.readdirSync(
-  path.resolve(projectConfig.configDir, "content")
+  path.resolve(configDir, "content")
 );
 
 module.exports = { 
@@ -45,7 +45,7 @@ module.exports = {
 
     config.plugin("env").use(require.resolve("webpack/lib/EnvironmentPlugin"), [
       {
-        CONFIG_DIR: path.join(__dirname, "/", projectConfig.configDir),
+        CONFIG_DIR: path.join(__dirname, "/", configDir),
       },
     ]);
   },
