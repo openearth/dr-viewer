@@ -1,4 +1,7 @@
 {
   "name": "DR viewer",
-  "shortName": "DR"
+  "shortName": "DR",
+  "i18n": {
+    "locale": "en"
+  }
 }
