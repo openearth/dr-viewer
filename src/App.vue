@@ -40,7 +40,7 @@ export default {
   methods: {
     reset() {
       this.layers = []
-      this.legendLayer = []
+      this.legendLayer = ''
     }
   }
 };
