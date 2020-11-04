@@ -1,18 +1,6 @@
-const fs = require("fs");
-const path = require("path");
-const configDir = require("./config").configDir;
-const yaml = require("js-yaml");
-const projectConfig = yaml.safeLoad(
-  fs.readFileSync(path.join(__dirname, configDir, "config.yml"), "utf8")
-);
+const fs = require('fs')
 
-const layerPages = fs.readdirSync(
-  path.resolve(configDir, "data")
-);
-
-const locales = fs.readdirSync(
-  path.resolve(configDir, "content")
-);
+const layerPages = fs.readdirSync('./src/data')
 
 module.exports = {
   transpileDependencies: [
@@ -32,43 +20,21 @@ module.exports = {
       .loader("markdown-loader")
       .end();
 
-    config.module
-      .rule("yaml")
-      .test(/\.ya?ml$/)
-      .use("json-loader")
-      .loader("json-loader")
-      .end()
-      .use("yaml-loader")
-      .loader("yaml-loader");
-
-    config.plugin("html").tap((args) => {
-      args[0].title = projectConfig.name;
-      return args;
-    });
-
     config.plugin("define").tap((definitions) => {
       definitions[0] = Object.assign(definitions[0], {
         LAYER_PAGES: JSON.stringify(layerPages),
-        LOCALES: JSON.stringify(locales),
       });
 
       return definitions;
     });
-
-    config.plugin("env").use(require.resolve("webpack/lib/EnvironmentPlugin"), [
-      {
-        CONFIG_DIR: path.join(__dirname, "/", configDir),
-      },
-    ]);
   },
 
   pluginOptions: {
     i18n: {
-      locale: "en",
-      fallbackLocale: "en",
-      localeDir: "locales",
-      enableInSFC: true,
-      ...projectConfig.i18n,
-    },
-  },
+      locale: 'es',
+      fallbackLocale: 'en',
+      localeDir: 'locales',
+      enableInSFC: true
+    }
+  }
 };

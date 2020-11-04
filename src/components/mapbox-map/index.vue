@@ -31,14 +31,16 @@
 </template>
 
 <script>
-import { MAP_BASELAYERS, MAP_BASELAYER_DEFAULT } from '@/lib/constants';
+import {
+  MAP_CENTER,
+  MAP_ZOOM,
+  MAP_BASELAYERS,
+  MAP_BASELAYER_DEFAULT,
+} from '@/lib/constants';
 import buildWmsLayer from '@/lib/build-wms-layer';
-import { getProjectConfig } from '@/lib/config-utils'
 import MapControlBaselayer from './map-control-baselayer'
 import MapLayer from './map-layer'
 import MapLegend from './map-legend'
-
-const config = getProjectConfig()
 
 export default {
   components: {
@@ -67,8 +69,8 @@ export default {
     },
     mapConfig() {
       return {
-        center: config.map.center,
-        zoom: config.map.zoom,
+        center: MAP_CENTER,
+        zoom: MAP_ZOOM,
         style: MAP_BASELAYER_DEFAULT.style
       };
     },
