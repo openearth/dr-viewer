@@ -2,7 +2,7 @@ name: DR Viewer
 shortName: DR
 
 i18n:
-  locale: EN
+  locale: es 
 
 map:
   center: [-70.1654584, 18.7009047]
