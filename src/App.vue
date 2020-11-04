@@ -11,6 +11,7 @@
         :legend-layer="legendLayer"
       />
     </v-main>
+    <legal-dialog />
   </v-app>
 </template>
 
@@ -18,6 +19,7 @@
 import AppHeader from "@/components/app-header";
 import AppSidebar from "@/components/app-sidebar";
 import MapboxMap from "@/components/mapbox-map";
+import LegalDialog from "@/components/legal-dialog";
 
 export default {
   name: "App",
@@ -25,6 +27,7 @@ export default {
     AppHeader,
     AppSidebar,
     MapboxMap,
+    LegalDialog
   },
   data() {
     return {
