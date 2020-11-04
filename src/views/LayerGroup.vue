@@ -11,6 +11,7 @@
 
 <script>
 import LayerList from '@/components/layer-list';
+import { importConfig } from '@/lib/config-utils'
 
 export default {
   components: {
@@ -24,7 +25,7 @@ export default {
   computed: {
     layers() {
       const { id } = this.$route.params;
-      return require(`@/data/${id}`);
+      return importConfig(`data/${id}`);
     },
   },
 };

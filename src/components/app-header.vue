@@ -1,9 +1,10 @@
 <template>
   <v-app-bar app color="primary" dark clipped-left>
     <v-toolbar-title>
-      <router-link to="/" class="white--text text-decoration-none"
-        >DR</router-link
-      >
+      <router-link
+        to="/"
+        class="white--text text-decoration-none"
+      >{{ title }}</router-link>
     </v-toolbar-title>
 
     <v-spacer />
@@ -27,12 +28,16 @@
 </template>
 
 <script>
-import pages from '@/lib/get-data-pages'
+import { getProjectConfig } from '@/lib/config-utils';
+import pages from '@/lib/get-data-pages';
+
+const config = getProjectConfig()
 
 export default {
   data() {
     return {
-      pages 
+      pages,
+      title: config.shortName,
     };
   },
 };
