@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
-import { importConfig } from "@/lib/config-utils";
+import { importConfig, getProjectConfig } from "@/lib/config-utils";
+
+const config = getProjectConfig()
 
 // eslint-disable-next-line no-undef
 const locales = LOCALES.map(locale => locale.split('.js')[0])
@@ -18,5 +20,8 @@ function loadLocaleMessages () {
 }
 
 export default new VueI18n({
-  messages: loadLocaleMessages()
-})
+  messages: loadLocaleMessages(),
+  locale: "en",
+  fallbackLocale: "en",
+  ...config.i18n,
+});
