@@ -7,11 +7,14 @@
     />
     <v-main>
       <mapbox-map
+        v-if="acceptedLegal"
         :layers="layers"
         :legend-layer="legendLayer"
       />
     </v-main>
-    <legal-dialog />
+    <legal-dialog
+      @accepted="onLegalAccepted"
+    />
   </v-app>
 </template>
 
@@ -32,7 +35,8 @@ export default {
   data() {
     return {
       layers: [],
-      legendLayer: null
+      legendLayer: null,
+      acceptedLegal: false
     }
   },
   watch: {
@@ -43,7 +47,10 @@ export default {
   methods: {
     reset() {
       this.layers = []
-      this.legendLayer = []
+      this.legendLayer = ''
+    },
+    onLegalAccepted() {
+      this.acceptedLegal = true
     }
   }
 };

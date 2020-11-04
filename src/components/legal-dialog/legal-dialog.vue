@@ -71,6 +71,7 @@ export default {
   methods: {
     onStartClick() {
       this.show = false
+      this.$emit('accepted')
     },
   },
 };
