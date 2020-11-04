@@ -1,5 +1,5 @@
 export function getProjectConfig() {
-  return require(`${process.env.CONFIG_DIR}/project.json`);
+  return require(`${process.env.CONFIG_DIR}/config.yml`);
 }
 
 export function importConfig(filePath) {

@@ -1,7 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 const configDir = require("./config").configDir;
-const projectConfig = require(path.join(__dirname, configDir, "project.json"));
+const yaml = require("js-yaml");
+const projectConfig = yaml.safeLoad(
+  fs.readFileSync(path.join(__dirname, configDir, "config.yml"), "utf8")
+);
 
 const layerPages = fs.readdirSync(
   path.resolve(configDir, "data")
@@ -28,6 +31,15 @@ module.exports = {
       .use("markdown-loader")
       .loader("markdown-loader")
       .end();
+
+    config.module
+      .rule("yaml")
+      .test(/\.ya?ml$/)
+      .use("json-loader")
+      .loader("json-loader")
+      .end()
+      .use("yaml-loader")
+      .loader("yaml-loader");
 
     config.plugin("html").tap((args) => {
       args[0].title = projectConfig.name;
