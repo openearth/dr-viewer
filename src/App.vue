@@ -17,19 +17,29 @@
 <script>
 import AppHeader from "@/components/app-header";
 import AppSidebar from "@/components/app-sidebar";
-import MapboxMap from "@/components/mapbox-map";
 
 export default {
   name: "App",
   components: {
     AppHeader,
     AppSidebar,
-    MapboxMap,
+    MapboxMap: () => import('@/components/mapbox-map'),
   },
   data() {
     return {
       layers: [],
       legendLayer: null
+    }
+  },
+  watch: {
+    '$route'() {
+      this.reset()
+    }
+  },
+  methods: {
+    reset() {
+      this.layers = []
+      this.legendLayer = ''
     }
   }
 };
