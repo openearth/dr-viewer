@@ -21,15 +21,14 @@
 <script>
 import AppHeader from "@/components/app-header";
 import AppSidebar from "@/components/app-sidebar";
-import MapboxMap from "@/components/mapbox-map";
 import LegalDialog from "@/components/legal-dialog";
 
 export default {
   name: "App",
   components: {
+    MapboxMap: () => import('@/components/mapbox-map'),
     AppHeader,
     AppSidebar,
-    MapboxMap,
     LegalDialog
   },
   data() {
