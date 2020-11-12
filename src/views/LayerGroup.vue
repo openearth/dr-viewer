@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { LayerListControls } from 'delta-vue-components';
+import { LayerListControls } from '@deltares/vue-components';
 
 export default {
   components: {

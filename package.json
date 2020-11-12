@@ -10,10 +10,10 @@
     "start": "npm run serve"
   },
   "dependencies": {
+    "@deltares/vue-components": "0.1.2",
     "@voorhoede/deltares-vuetify-theme": "^1.0.4",
     "@vue/composition-api": "1.0.0-beta.18",
     "core-js": "^3.6.5",
-    "delta-vue-components": "file:../delta-vue-components/component-library",
     "html-loader": "^1.3.2",
     "mapbox-gl": "^1.12.0",
     "markdown-loader": "^6.0.0",
