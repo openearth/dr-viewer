@@ -2,8 +2,8 @@
   <v-app>
     <app-header />
     <app-sidebar
-      @layersUpdate="layers = $event"
-      @legendUpdate="legendLayer = $event"
+      @active-layers-update="onActiveLayersUpdate"
+      @legend-update="onLegendUpdate"
     />
     <v-main>
       <mapbox-map
@@ -50,7 +50,13 @@ export default {
     },
     onLegalAccepted() {
       this.acceptedLegal = true
+    },
+    onActiveLayersUpdate(event) {
+      this.layers = event
+    },
+    onLegendUpdate(event) {
+      this.legendLayer = event
     }
-  }
+  },
 };
 </script>

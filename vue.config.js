@@ -18,6 +18,7 @@ module.exports = {
   transpileDependencies: [
     "vuetify",
     "@voorhoede/deltares-vuetify-theme",
+    "@deltares/vue-components",
     "vue2mapbox-gl",
   ],
 
