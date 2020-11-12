@@ -12,6 +12,7 @@
 
 <script>
 import { LayerListControls } from '@deltares/vue-components';
+import { importConfig } from '@/lib/config-utils'
 
 export default {
   components: {
@@ -31,7 +32,7 @@ export default {
         const { id } = newRoute.params;
         this.layers = []
         await this.$nextTick()
-        this.layers = require(`@/data/${id}`);
+        this.layers = importConfig(`data/${id}`);
       }
     }
   },

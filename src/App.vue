@@ -7,38 +7,56 @@
     />
     <v-main>
       <mapbox-map
+        v-if="acceptedLegal"
         :layers="layers"
         :legend-layer="legendLayer"
       />
     </v-main>
+    <legal-dialog
+      @accepted="onLegalAccepted"
+    />
   </v-app>
 </template>
 
 <script>
 import AppHeader from "@/components/app-header";
 import AppSidebar from "@/components/app-sidebar";
-import MapboxMap from "@/components/mapbox-map";
+import LegalDialog from "@/components/legal-dialog";
 
 export default {
   name: "App",
   components: {
+    MapboxMap: () => import('@/components/mapbox-map'),
     AppHeader,
     AppSidebar,
-    MapboxMap,
+    LegalDialog
   },
   data() {
     return {
       layers: [],
-      legendLayer: null
+      legendLayer: null,
+      acceptedLegal: false
+    }
+  },
+  watch: {
+    '$route'() {
+      this.reset()
     }
   },
   methods: {
+    reset() {
+      this.layers = []
+      this.legendLayer = ''
+    },
+    onLegalAccepted() {
+      this.acceptedLegal = true
+    },
     onActiveLayersUpdate(event) {
       this.layers = event
     },
     onLegendUpdate(event) {
       this.legendLayer = event
     }
-  }
+  },
 };
 </script>
