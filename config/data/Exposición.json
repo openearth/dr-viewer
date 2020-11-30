@@ -1,0 +1,1086 @@
+[
+    {
+        "name": "Exposici\u00f3n",
+        "id": "Mapas_de_Exposicion",
+        "children_names": [
+            "Centros",
+            "Inundacion_Fluvial",
+            "Inundacion_Lluvia_Huracanada",
+            "Inundacion_Lluvia",
+            "Terremoto",
+            "Tsunami"
+        ],
+        "grand_children_names": [
+            "Poblados",
+            "Obras_Drenaje",
+            "Puentes_sobre_canal",
+            "Puentes",
+            "Red_Vial",
+            "Tuneles"
+        ],
+        "children": [
+            {
+                "id": "Centros",
+                "name": "Centros",
+                "children": [
+                    {
+                        "id": "Poblados",
+                        "name": "Poblados",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Centros_Poblados_RDom_wgs84",
+                                "layer": "Centros_Poblados_RDom_wgs84",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Poblados"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "Mapas_de_Exposicion:RD_LimAdm_Depto",
+                "layer": "RD_LimAdm_Depto",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "RD LimAdm Depto"
+            },
+            {
+                "id": "Mapas_de_Exposicion:RD_LimAdm_Pais",
+                "layer": "RD_LimAdm_Pais",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "RD LimAdm Pais"
+            },
+            {
+                "id": "Mapas_de_Exposicion:RD_LimAdm_Provincias",
+                "layer": "RD_LimAdm_Provincias",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "RD LimAdm Provincias"
+            },
+            {
+                "id": "Inundacion_Fluvial",
+                "name": "Inundacion_Fluvial",
+                "children": [
+                    {
+                        "id": "Puentes_sobre_canal",
+                        "name": "Puentes sobre canal",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr100_org",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr100_org",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Puentes sobre canal"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr2",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr25",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr25",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr25"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr50",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr500",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr10",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr10",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr10"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr100",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr100"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr1000",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr250",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr250",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr250"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr5",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr5",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr5"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Red_Vial",
+                        "name": "Red Vial",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr10",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr10",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Red Vial"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr5",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr5",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr5"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr100",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr100"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr1000",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr2",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr25",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr25",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr25"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr250",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr250",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr250"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr50",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr50"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Red_Vial_Tr500",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Tuneles",
+                        "name": "Tuneles",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr10",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr10",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Tuneles"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr1000",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr100",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr100"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr2",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr25",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr25",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr25"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr250",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr250",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr250"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr5",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr5",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr5"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr50",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr500",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Obras_Drenaje",
+                        "name": "Obras Drenaje",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr10",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr10",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Obras Drenaje"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr100",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr100"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr1000",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr2",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr25",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr25",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr25"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr250",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr250",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr250"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr5",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr5",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr5"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr50",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr500",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Puentes",
+                        "name": "Puentes",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr10",
+                                "layer": "Inundacion_Fluvial_Puentes_tr10",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Puentes"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr1000",
+                                "layer": "Inundacion_Fluvial_Puentes_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr2",
+                                "layer": "Inundacion_Fluvial_Puentes_tr2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr25",
+                                "layer": "Inundacion_Fluvial_Puentes_tr25",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr25"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr250",
+                                "layer": "Inundacion_Fluvial_Puentes_tr250",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr250"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr5",
+                                "layer": "Inundacion_Fluvial_Puentes_tr5",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr5"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr500",
+                                "layer": "Inundacion_Fluvial_Puentes_tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr10",
+                        "layer": "Inundacion_Fluvial_tr10",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr10"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr100",
+                        "layer": "Inundacion_Fluvial_tr100",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr100"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr1000",
+                        "layer": "Inundacion_Fluvial_tr1000",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr1000"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr2",
+                        "layer": "Inundacion_Fluvial_tr2",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr2"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr25",
+                        "layer": "Inundacion_Fluvial_tr25",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr25"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr250",
+                        "layer": "Inundacion_Fluvial_tr250",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr250"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr5",
+                        "layer": "Inundacion_Fluvial_tr5",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr5"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr50",
+                        "layer": "Inundacion_Fluvial_tr50",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr50"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr500",
+                        "layer": "Inundacion_Fluvial_tr500",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr500"
+                    }
+                ]
+            },
+            {
+                "id": "Inundacion_Lluvia_Huracanada",
+                "name": "Inundacion_Lluvia_Huracanada",
+                "children": [
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr50",
+                        "layer": "Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr50",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Puente sobre canal tr50"
+                    },
+                    {
+                        "id": "Obras_Drenaje",
+                        "name": "Obras Drenaje",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100",
+                                "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Obras Drenaje"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr1000",
+                                "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr50",
+                                "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500",
+                                "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr100",
+                        "layer": "Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr100",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Puente sobre canal tr100"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr1000",
+                        "layer": "Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr1000",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Puente sobre canal tr1000"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr500",
+                        "layer": "Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr500",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Puente sobre canal tr500"
+                    },
+                    {
+                        "id": "Puentes",
+                        "name": "Puentes",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puentes_tr100",
+                                "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Puentes"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puentes_tr1000",
+                                "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puentes_tr50",
+                                "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puentes_tr500",
+                                "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Red_Vial",
+                        "name": "Red Vial",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Red_Vial_tr100",
+                                "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Red Vial"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Red_Vial_tr1000",
+                                "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Red_Vial_tr500",
+                                "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Tuneles",
+                        "name": "Tuneles",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Tuneles_tr100",
+                                "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Tuneles"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Tuneles_tr1000",
+                                "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Tuneles_tr50",
+                                "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Tuneles_tr500",
+                                "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr500",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_tr100",
+                        "layer": "Inundacion_Lluvia_Huracanada_tr100",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr100"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_tr1000",
+                        "layer": "Inundacion_Lluvia_Huracanada_tr1000",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr1000"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_tr50",
+                        "layer": "Inundacion_Lluvia_Huracanada_tr50",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr50"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_tr500",
+                        "layer": "Inundacion_Lluvia_Huracanada_tr500",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr500"
+                    }
+                ]
+            },
+            {
+                "id": "Terremoto",
+                "name": "Terremoto",
+                "children": [
+                    {
+                        "id": "Obras_Drenaje",
+                        "name": "Obras Drenaje",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr1000t1",
+                                "layer": "Terremoto_Obras_Drenaje_tr1000t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Obras Drenaje"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr1000t2",
+                                "layer": "Terremoto_Obras_Drenaje_tr1000t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr200t1",
+                                "layer": "Terremoto_Obras_Drenaje_tr200t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr200t2",
+                                "layer": "Terremoto_Obras_Drenaje_tr200t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr2500t1",
+                                "layer": "Terremoto_Obras_Drenaje_tr2500t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr2500t2",
+                                "layer": "Terremoto_Obras_Drenaje_tr2500t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr475t1",
+                                "layer": "Terremoto_Obras_Drenaje_tr475t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr475t2",
+                                "layer": "Terremoto_Obras_Drenaje_tr475t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t2"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Puentes_sobre_canal",
+                        "name": "Puentes sobre canal",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr1000t1",
+                                "layer": "Terremotos_Puentes_sobre_canal_tr1000t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Puentes sobre canal"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr1000t2",
+                                "layer": "Terremotos_Puentes_sobre_canal_tr1000t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr200t1",
+                                "layer": "Terremotos_Puentes_sobre_canal_tr200t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr200t2",
+                                "layer": "Terremotos_Puentes_sobre_canal_tr200t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr2500t1",
+                                "layer": "Terremotos_Puentes_sobre_canal_tr2500t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr2500t2",
+                                "layer": "Terremotos_Puentes_sobre_canal_tr2500t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr475t1",
+                                "layer": "Terremotos_Puentes_sobre_canal_tr475t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr475t2",
+                                "layer": "Terremotos_Puentes_sobre_canal_tr475t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t2"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Puentes",
+                        "name": "Puentes",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr1000t1",
+                                "layer": "Terremotos_Puentes_tr1000t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Puentes"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr1000t2",
+                                "layer": "Terremotos_Puentes_tr1000t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr200t1",
+                                "layer": "Terremotos_Puentes_tr200t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr200t2",
+                                "layer": "Terremotos_Puentes_tr200t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr2500t1",
+                                "layer": "Terremotos_Puentes_tr2500t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr2500t2",
+                                "layer": "Terremotos_Puentes_tr2500t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr475t1",
+                                "layer": "Terremotos_Puentes_tr475t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr475t2",
+                                "layer": "Terremotos_Puentes_tr475t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t2"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Red_Vial",
+                        "name": "Red Vial",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr1000t1",
+                                "layer": "Terremotos_Red_Vial_tr1000t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Red Vial"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr1000t2",
+                                "layer": "Terremotos_Red_Vial_tr1000t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr200t1",
+                                "layer": "Terremotos_Red_Vial_tr200t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr200t2",
+                                "layer": "Terremotos_Red_Vial_tr200t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr2500t1",
+                                "layer": "Terremotos_Red_Vial_tr2500t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr2500t2",
+                                "layer": "Terremotos_Red_Vial_tr2500t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr475t1",
+                                "layer": "Terremotos_Red_Vial_tr475t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr475t2",
+                                "layer": "Terremotos_Red_Vial_tr475t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t2"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Tuneles",
+                        "name": "Tuneles",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr1000t1",
+                                "layer": "Terremotos_Tuneles_tr1000t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Tuneles"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr1000t2",
+                                "layer": "Terremotos_Tuneles_tr1000t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr200t1",
+                                "layer": "Terremotos_Tuneles_tr200t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr200t2",
+                                "layer": "Terremotos_Tuneles_tr200t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr200t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr2500t1",
+                                "layer": "Terremotos_Tuneles_tr2500t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr2500t2",
+                                "layer": "Terremotos_Tuneles_tr2500t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t2"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr475t1",
+                                "layer": "Terremotos_Tuneles_tr475t1",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t1"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr475t2",
+                                "layer": "Terremotos_Tuneles_tr475t2",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "Tsunami",
+                "name": "Tsunami",
+                "children": [
+                    {
+                        "id": "Obras_Drenaje",
+                        "name": "Obras Drenaje",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Obras_Drenaje_tr100",
+                                "layer": "Tsunami_Obras_Drenaje_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Obras Drenaje"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Obras_Drenaje_tr1000",
+                                "layer": "Tsunami_Obras_Drenaje_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Obras_Drenaje_tr475",
+                                "layer": "Tsunami_Obras_Drenaje_tr475",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Obras_Drenaje_tr50",
+                                "layer": "Tsunami_Obras_Drenaje_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Puentes_sobre_canal",
+                        "name": "Puentes sobre canal",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Puentes_sobre_canal_tr100",
+                                "layer": "Tsunami_Puentes_sobre_canal_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Puentes sobre canal"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Puentes_sobre_canal_tr1000",
+                                "layer": "Tsunami_Puentes_sobre_canal_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Puentes_sobre_canal_tr475",
+                                "layer": "Tsunami_Puentes_sobre_canal_tr475",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Puentes_sobre_canal_tr50",
+                                "layer": "Tsunami_Puentes_sobre_canal_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Puentes",
+                        "name": "Puentes",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Puentes_tr100",
+                                "layer": "Tsunami_Puentes_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Puentes"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Puentes_tr1000",
+                                "layer": "Tsunami_Puentes_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Puentes_tr475",
+                                "layer": "Tsunami_Puentes_tr475",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Puentes_tr50",
+                                "layer": "Tsunami_Puentes_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Red_Vial",
+                        "name": "Red Vial",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Red_Vial_tr100",
+                                "layer": "Tsunami_Red_Vial_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Red Vial"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Red_Vial_tr1000",
+                                "layer": "Tsunami_Red_Vial_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Red_Vial_tr475",
+                                "layer": "Tsunami_Red_Vial_tr475",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Red_Vial_tr50",
+                                "layer": "Tsunami_Red_Vial_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Tuneles",
+                        "name": "Tuneles",
+                        "children": [
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Tuneles_tr100",
+                                "layer": "Tsunami_Tuneles_tr100",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "Tuneles"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Tuneles_tr1000",
+                                "layer": "Tsunami_Tuneles_tr1000",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Tuneles_tr475",
+                                "layer": "Tsunami_Tuneles_tr475",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475"
+                            },
+                            {
+                                "id": "Mapas_de_Exposicion:Tsunami_Tuneles_tr50",
+                                "layer": "Tsunami_Tuneles_tr50",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Tsunami_tr100",
+                        "layer": "Tsunami_tr100",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr100"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Tsunami_tr1000",
+                        "layer": "Tsunami_tr1000",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr1000"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Tsunami_tr475",
+                        "layer": "Tsunami_tr475",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr475"
+                    },
+                    {
+                        "id": "Mapas_de_Exposicion:Tsunami_tr50",
+                        "layer": "Tsunami_tr50",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " tr50"
+                    }
+                ]
+            },
+            {
+                "id": "Mapas_de_Exposicion:SISMO_RD_TR1000_TYPE1_RECLASS_wgs84",
+                "layer": "SISMO_RD_TR1000_TYPE1_RECLASS_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "SISMO RD TR1000 TYPE1 RECLASS wgs84"
+            },
+            {
+                "id": "Mapas_de_Exposicion:SISMO_RD_TR1000_TYPE2_RECLASS_wgs84",
+                "layer": "SISMO_RD_TR1000_TYPE2_RECLASS_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "SISMO RD TR1000 TYPE2 RECLASS wgs84"
+            },
+            {
+                "id": "Mapas_de_Exposicion:SISMO_RD_TR200_TYPE1_RECLASS_wgs84",
+                "layer": "SISMO_RD_TR200_TYPE1_RECLASS_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "SISMO RD TR200 TYPE1 RECLASS wgs84"
+            },
+            {
+                "id": "Mapas_de_Exposicion:SISMO_RD_TR200_TYPE2_RECLASS_wgs84",
+                "layer": "SISMO_RD_TR200_TYPE2_RECLASS_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "SISMO RD TR200 TYPE2 RECLASS wgs84"
+            },
+            {
+                "id": "Mapas_de_Exposicion:SISMO_RD_TR2500_TYPE1_RECLASS_wgs84",
+                "layer": "SISMO_RD_TR2500_TYPE1_RECLASS_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "SISMO RD TR2500 TYPE1 RECLASS wgs84"
+            },
+            {
+                "id": "Mapas_de_Exposicion:SISMO_RD_TR2500_TYPE2_RECLASS_wgs84",
+                "layer": "SISMO_RD_TR2500_TYPE2_RECLASS_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "SISMO RD TR2500 TYPE2 RECLASS wgs84"
+            },
+            {
+                "id": "Mapas_de_Exposicion:SISMO_RD_TR475_TYPE1_RECLASS_wgs84",
+                "layer": "SISMO_RD_TR475_TYPE1_RECLASS_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "SISMO RD TR475 TYPE1 RECLASS wgs84"
+            },
+            {
+                "id": "Mapas_de_Exposicion:SISMO_RD_TR475_TYPE2_RECLASS_wgs84",
+                "layer": "SISMO_RD_TR475_TYPE2_RECLASS_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "SISMO RD TR475 TYPE2 RECLASS wgs84"
+            }
+        ]
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "name": "DAE y PAE",
+        "id": "DAE_y_PAE",
+        "children_names": [
+            "Centros_Poblados",
+            "RD_LimAdm",
+            "Red_Vial"
+        ],
+        "grand_children_names": [
+            "EAL",
+            "EAD"
+        ],
+        "children": [
+            {
+                "id": "Centros_Poblados",
+                "name": "Centros_Poblados",
+                "children": [
+                    {
+                        "id": "DAE_y_PAE:Centros_Poblados_RDom_wgs84",
+                        "layer": "Centros_Poblados_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " RDom wgs84"
+                    }
+                ]
+            },
+            {
+                "id": "RD_LimAdm",
+                "name": "RD_LimAdm",
+                "children": [
+                    {
+                        "id": "DAE_y_PAE:RD_LimAdm_Depto",
+                        "layer": "RD_LimAdm_Depto",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Depto"
+                    },
+                    {
+                        "id": "DAE_y_PAE:RD_LimAdm_Pais",
+                        "layer": "RD_LimAdm_Pais",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Pais"
+                    },
+                    {
+                        "id": "DAE_y_PAE:RD_LimAdm_Provincias",
+                        "layer": "RD_LimAdm_Provincias",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Provincias"
+                    }
+                ]
+            },
+            {
+                "id": "Red_Vial",
+                "name": "Red_Vial",
+                "children": [
+                    {
+                        "id": "EAD",
+                        "name": "EAD",
+                        "children": [
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAD_IF",
+                                "layer": "Red_Vial_EAD_IF",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "EAD"
+                            },
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAD_ILH",
+                                "layer": "Red_Vial_EAD_ILH",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " ILH"
+                            },
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAD_TER",
+                                "layer": "Red_Vial_EAD_TER",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " TER"
+                            },
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAD_TSU",
+                                "layer": "Red_Vial_EAD_TSU",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " TSU"
+                            },
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAD_Total",
+                                "layer": "Red_Vial_EAD_Total",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Total"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "EAL",
+                        "name": "EAL",
+                        "children": [
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAL_IF",
+                                "layer": "Red_Vial_EAL_IF",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": "EAL"
+                            },
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAL_ILH",
+                                "layer": "Red_Vial_EAL_ILH",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " ILH"
+                            },
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAL_TER",
+                                "layer": "Red_Vial_EAL_TER",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " TER"
+                            },
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAL_TSU",
+                                "layer": "Red_Vial_EAL_TSU",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " TSU"
+                            },
+                            {
+                                "id": "DAE_y_PAE:Red_Vial_EAL_Total",
+                                "layer": "Red_Vial_EAL_Total",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Total"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

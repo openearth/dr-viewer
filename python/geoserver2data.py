@@ -2,17 +2,42 @@ from geoserver.catalog import Catalog
 import json
 
 # Don't check in credentials!
-USERNAME = '***********'
-PASSWORD = '***********'
+USERNAME = '*********'
+PASSWORD = '*********'
 
 # Connect to Dominican Republic Geoserver
 cat = Catalog('https://openearth-dominicaanse-republiek.avi.deltares.nl/geoserver/rest/',
               USERNAME, PASSWORD)
 
 files = [{
+    'name': 'Danios',
+    'id': 'Mapas_de_Danios',
+    'children_names': ['Inundacion_Fluvial', 'Inundacion_Lluvia_Huracanada', 'Inundacion_Lluvia', 'Terremoto', 'Tsunami'],
+    'grand_children_names': ['Obras_Drenaje', 'Puentes_sobre_canal', 'Puentes', 'Red_Vial', 'Tuneles'],
+    'children': []
+}, {
+    'name': 'Exposición',
+    'id': 'Mapas_de_Exposicion',
+    'children_names': ['Centros', 'Inundacion_Fluvial', 'Inundacion_Lluvia_Huracanada', 'Inundacion_Lluvia', 'Terremoto', 'Tsunami'],
+    'grand_children_names': ['Poblados', 'Obras_Drenaje', 'Puentes_sobre_canal', 'Puentes', 'Red_Vial', 'Tuneles'],
+    'children': []
+}, {
+    'name': 'Perdidas',
+    'id': 'Perdidas',
+    'children_names': ['Centros_Poblados', 'RD_LimAdm', 'Red_Vial'],
+    'grand_children_names': ['EAL'],
+    'children': []
+}, {
+    'name': 'DAE y PAE',
+    'id': 'DAE_y_PAE',
+    'children_names': ['Centros_Poblados', 'RD_LimAdm', 'Red_Vial'],
+    'grand_children_names': ['EAL', 'EAD'],
+    'children': []
+}, {
     'name': 'Amenazas',
     'id': 'Mapas_de_Amenazas',
     'children_names': ['Inundacion_Fluvial', 'Inundacion_Lluvia_Huracanada', 'Terremoto', 'SISMO_RD', 'Tsunami'],
+    'grand_children_names': [],
     'children': []
 }]
 
@@ -46,14 +71,10 @@ for file in files:
             has_child = next(
                 (x for x in file['children'] if x['id'] == child), None)
 
-            title = name.split(child)[-1].split('_')
-            title = ' '.join(title)
-
-            new_layer['name'] = title
             if (not has_child):
                 file['children'].append({
                     'id': child,
-                    'name': title,
+                    'name': child,
                     'children': []
                 })
             has_child = next(
@@ -83,14 +104,14 @@ for file in files:
             title = name.split(child)[-1].split('_')
             title = ' '.join(title)
             new_layer['name'] = title
-            file['children'].append(new_layer)
+            has_child['children'].append(new_layer)
         if (not child and not grand_child):
-            title = name.split(':')[-1].split('_')
+            title = name.split('_')
             title = ' '.join(title)
-            new_layer['name'] = file['id']
+            new_layer['name'] = title
             file['children'].append(new_layer)
 
-    filename = '../%s.json' % (file['name'])
+    filename = '../config/data%s.json' % (file['name'])
     with open(filename, 'w') as outfile:
         outfile.write(json.dumps([file], indent=4))
         print("Text file has been created: ", file['name'])
