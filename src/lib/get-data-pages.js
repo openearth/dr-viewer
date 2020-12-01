@@ -3,7 +3,9 @@ function extractExtension(page) {
 }
 
 function toRoute(id) {
-  const name = id.replaceAll("-", " ");
+  let name = id.split('_')
+  name = name[name.length - 1]
+  name = name.replaceAll("-", " ");
 
   return {
     name: name.charAt(0).toUpperCase() + name.slice(1),

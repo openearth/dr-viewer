@@ -1,5 +1,6 @@
 [
     {
+        "filename": "1_Amenazas",
         "name": "Amenazas",
         "id": "Mapas_de_Amenazas",
         "children_names": [
@@ -12,70 +13,10 @@
         "grand_children_names": [],
         "children": [
             {
-                "id": "Mapas_de_Amenazas:Centros_Poblados_RDom_wgs84",
-                "layer": "Centros_Poblados_RDom_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Centros Poblados RDom wgs84"
-            },
-            {
                 "id": "Mapas_de_Amenazas:Deslizmientos_Tierra",
                 "layer": "Deslizmientos_Tierra",
                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                 "name": "Deslizmientos Tierra"
-            },
-            {
-                "id": "Mapas_de_Amenazas:Obras_Drenaje_RDom_wgs84",
-                "layer": "Obras_Drenaje_RDom_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Obras Drenaje RDom wgs84"
-            },
-            {
-                "id": "Mapas_de_Amenazas:Peajes_RDom_wgs84",
-                "layer": "Peajes_RDom_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Peajes RDom wgs84"
-            },
-            {
-                "id": "Mapas_de_Amenazas:Puentes_RDom_wgs84",
-                "layer": "Puentes_RDom_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Puentes RDom wgs84"
-            },
-            {
-                "id": "Mapas_de_Amenazas:Puentes_sobre_Canal_RDom_wgs84",
-                "layer": "Puentes_sobre_Canal_RDom_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Puentes sobre Canal RDom wgs84"
-            },
-            {
-                "id": "Mapas_de_Amenazas:RD_LimAdm_Depto",
-                "layer": "RD_LimAdm_Depto",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "RD LimAdm Depto"
-            },
-            {
-                "id": "Mapas_de_Amenazas:RD_LimAdm_Pais",
-                "layer": "RD_LimAdm_Pais",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "RD LimAdm Pais"
-            },
-            {
-                "id": "Mapas_de_Amenazas:RD_LimAdm_Provincias",
-                "layer": "RD_LimAdm_Provincias",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "RD LimAdm Provincias"
-            },
-            {
-                "id": "Mapas_de_Amenazas:Red_Vial_RD_wgs84",
-                "layer": "Red_Vial_RD_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Red Vial RD wgs84"
-            },
-            {
-                "id": "Mapas_de_Amenazas:Tuneles_RDom_wgs84",
-                "layer": "Tuneles_RDom_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Tuneles RDom wgs84"
             },
             {
                 "id": "Inundacion_Fluvial",
@@ -250,6 +191,89 @@
                         "name": " tr50"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Mapas Bases",
+        "id": "Mapas_Bases",
+        "children_names": [
+            "Activos",
+            "Fronteras_administrativas"
+        ],
+        "grand_children_names": [],
+        "children": [
+            {
+                "id": "Mapas_Bases:Centros_Poblados_RDom_wgs84",
+                "layer": "Centros_Poblados_RDom_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "Centros Poblados RDom wgs84"
+            },
+            {
+                "id": "Activos",
+                "name": "Activos",
+                "children": [
+                    {
+                        "id": "Mapas_Bases:Activos_Obras_Drenaje_RDom_wgs84",
+                        "layer": "Activos_Obras_Drenaje_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Obras Drenaje RDom wgs84"
+                    },
+                    {
+                        "id": "Mapas_Bases:Activos_Peajes_RDom_wgs84",
+                        "layer": "Activos_Peajes_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Peajes RDom wgs84"
+                    },
+                    {
+                        "id": "Mapas_Bases:Activos_Puentes_RDom_wgs84",
+                        "layer": "Activos_Puentes_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Puentes RDom wgs84"
+                    },
+                    {
+                        "id": "Mapas_Bases:Activos_Puentes_sobre_Canal_RDom_wgs84",
+                        "layer": "Activos_Puentes_sobre_Canal_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Puentes sobre Canal RDom wgs84"
+                    },
+                    {
+                        "id": "Mapas_Bases:Activos_Tuneles_RDom_wgs84",
+                        "layer": "Activos_Tuneles_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Tuneles RDom wgs84"
+                    }
+                ]
+            },
+            {
+                "id": "Fronteras_administrativas",
+                "name": "Fronteras_administrativas",
+                "children": [
+                    {
+                        "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Depto",
+                        "layer": "Fronteras_administrativas_RD_LimAdm_Depto",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " RD LimAdm Depto"
+                    },
+                    {
+                        "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Pais",
+                        "layer": "Fronteras_administrativas_RD_LimAdm_Pais",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " RD LimAdm Pais"
+                    },
+                    {
+                        "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Provincias",
+                        "layer": "Fronteras_administrativas_RD_LimAdm_Provincias",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " RD LimAdm Provincias"
+                    }
+                ]
+            },
+            {
+                "id": "Mapas_Bases:Red_Vial_RD_wgs84",
+                "layer": "Red_Vial_RD_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "Red Vial RD wgs84"
             }
         ]
     }

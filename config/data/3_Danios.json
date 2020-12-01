@@ -1,5 +1,6 @@
 [
     {
+        "filename": "3_Danios",
         "name": "Danios",
         "id": "Mapas_de_Danios",
         "children_names": [
@@ -18,12 +19,6 @@
         ],
         "children": [
             {
-                "id": "Mapas_de_Danios:Centros_Poblados_RDom_wgs84",
-                "layer": "Centros_Poblados_RDom_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Centros Poblados RDom wgs84"
-            },
-            {
                 "id": "Inundacion_Fluvial",
                 "name": "Inundacion_Fluvial",
                 "children": [
@@ -32,16 +27,10 @@
                         "name": "Obras Drenaje",
                         "children": [
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr250_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr250_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr10_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr10_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Obras Drenaje"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000 max costs vulnerability damage"
+                                "name": " tr10 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
@@ -50,16 +39,10 @@
                                 "name": " tr100 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr10_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr10_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr10 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr25_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr25_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr25 max costs vulnerability damage"
+                                "name": " tr1000 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr2_max_costs_vulnerability_damage",
@@ -68,10 +51,22 @@
                                 "name": " tr2 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr25_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr25_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500 max costs vulnerability damage"
+                                "name": " tr25 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr250_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr250_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr250 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr5_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr5_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr5 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
@@ -80,10 +75,10 @@
                                 "name": " tr50 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr5_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr5_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr5 max costs vulnerability damage"
+                                "name": " tr500 max costs vulnerability damage"
                             }
                         ]
                     },
@@ -92,28 +87,10 @@
                         "name": "Puentes sobre canal",
                         "children": [
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Puentes sobre canal"
-                            },
-                            {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr10_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr10_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr10 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr250_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr250_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr250 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr500_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr500_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr100_max_costs_vulnerability_damage",
@@ -122,10 +99,10 @@
                                 "name": " tr100 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr25_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr25_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr25 max costs vulnerability damage"
+                                "name": " tr1000 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr2_max_costs_vulnerability_damage",
@@ -134,16 +111,34 @@
                                 "name": " tr2 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr25_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr25_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50 max costs vulnerability damage"
+                                "name": " tr25 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr250_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr250_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr250 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr5_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr5_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr5 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr500_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr500_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500 max costs vulnerability damage"
                             }
                         ]
                     },
@@ -155,7 +150,31 @@
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr10_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr10_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Puentes"
+                                "name": " tr10 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr100_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_tr100_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr100 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr1000_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_tr1000_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr2_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_tr2_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr25_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_tr25_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr25 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr250_max_costs_vulnerability_damage",
@@ -170,40 +189,16 @@
                                 "name": " tr5 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr1000_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_tr1000_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr50_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Puentes_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr100_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_tr100_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr25_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_tr25_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr25 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr2_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_tr2_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2 max costs vulnerability damage"
+                                "name": " tr50 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr500 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr50_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Puentes_tr50_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50 max costs vulnerability damage"
                             }
                         ]
                     },
@@ -212,16 +207,10 @@
                         "name": "Red Vial",
                         "children": [
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr250_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Red_Vial_Tr250_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr10_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr10_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Red Vial"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr1000_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Red_Vial_Tr1000_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr1000 max costs vulnerability damage"
+                                "name": " Tr10 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr100_max_costs_vulnerability_damage",
@@ -230,16 +219,10 @@
                                 "name": " Tr100 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr10_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Red_Vial_Tr10_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr1000_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr10 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr25_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Red_Vial_Tr25_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr25 max costs vulnerability damage"
+                                "name": " Tr1000 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr2_max_costs_vulnerability_damage",
@@ -248,16 +231,28 @@
                                 "name": " Tr2 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr50_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Red_Vial_Tr50_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr25_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr25_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr50 max costs vulnerability damage"
+                                "name": " Tr25 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr250_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr250_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr250 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr5_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr5_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " Tr5 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr50_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Red_Vial_Tr50_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " Tr50 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_tr500_max_costs_vulnerability_damage",
@@ -272,34 +267,10 @@
                         "name": "Tuneles",
                         "children": [
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr250_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Tuneles_tr250_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr10_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr10_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Tuneles"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr2_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Tuneles_tr2_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr500_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Tuneles_tr500_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr50_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Tuneles_tr50_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr1000_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Tuneles_tr1000_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000 max costs vulnerability damage"
+                                "name": " tr10 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr100_max_costs_vulnerability_damage",
@@ -308,10 +279,16 @@
                                 "name": " tr100 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr10_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Fluvial_Tuneles_tr10_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr1000_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr10 max costs vulnerability damage"
+                                "name": " tr1000 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr2_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr2_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr25_max_costs_vulnerability_damage",
@@ -320,10 +297,28 @@
                                 "name": " tr25 max costs vulnerability damage"
                             },
                             {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr250_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr250_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr250 max costs vulnerability damage"
+                            },
+                            {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr5_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr5_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr5 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr50_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr50_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr50 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr500_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Fluvial_Tuneles_tr500_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500 max costs vulnerability damage"
                             }
                         ]
                     }
@@ -338,10 +333,10 @@
                         "name": "Obras Drenaje",
                         "children": [
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
+                                "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Obras Drenaje"
+                                "name": " tr100 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
@@ -350,16 +345,16 @@
                                 "name": " tr1000 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
-                                "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100 max costs vulnerability damage"
-                            },
-                            {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr50 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
+                                "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr500 max costs vulnerability damage"
                             }
                         ]
                     },
@@ -383,7 +378,7 @@
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puentes_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Puentes"
+                                "name": " tr100 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puentes_tr500_max_costs_vulnerability_damage",
@@ -413,7 +408,7 @@
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Tuneles"
+                                "name": " tr100 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Tuneles_tr500_max_costs_vulnerability_damage",
@@ -455,7 +450,7 @@
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Red_Vial_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Red Vial"
+                                "name": " tr1000 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Red_Vial_tr100_max_costs_vulnerability_damage",
@@ -491,7 +486,7 @@
                                 "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr1000t1_max_costs_vulnerability_damage",
                                 "layer": "Terremoto_Obras_Drenaje_tr1000t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Obras Drenaje"
+                                "name": " tr1000t1 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr200t1_max_costs_vulnerability_damage",
@@ -500,16 +495,16 @@
                                 "name": " tr200t1 max costs vulnerability damage"
                             },
                             {
-                                "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr475t1_max_costs_vulnerability_damage",
-                                "layer": "Terremoto_Obras_Drenaje_tr475t1_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t1 max costs vulnerability damage"
-                            },
-                            {
                                 "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr2500t1_max_costs_vulnerability_damage",
                                 "layer": "Terremoto_Obras_Drenaje_tr2500t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr2500t1 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr475t1_max_costs_vulnerability_damage",
+                                "layer": "Terremoto_Obras_Drenaje_tr475t1_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t1 max costs vulnerability damage"
                             }
                         ]
                     },
@@ -521,7 +516,7 @@
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_sobre_canal_tr1000t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr1000t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Puentes sobre canal"
+                                "name": " tr1000t1 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_sobre_canal_tr200t1_max_costs_vulnerability_damage",
@@ -551,7 +546,7 @@
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_tr1000t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_tr1000t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Puentes"
+                                "name": " tr1000t1 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_tr200t1_max_costs_vulnerability_damage",
@@ -581,19 +576,19 @@
                                 "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr1000t2_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Red_Vial_tr1000t2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Red Vial"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr2500t2_max_costs_vulnerability_damage",
-                                "layer": "Terremotos_Red_Vial_tr2500t2_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t2 max costs vulnerability damage"
+                                "name": " tr1000t2 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr200t2_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Red_Vial_tr200t2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr200t2 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr2500t2_max_costs_vulnerability_damage",
+                                "layer": "Terremotos_Red_Vial_tr2500t2_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t2 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr475t2_max_costs_vulnerability_damage",
@@ -608,18 +603,6 @@
                         "name": "Tuneles",
                         "children": [
                             {
-                                "id": "Mapas_de_Danios:Terremotos_Tuneles_tr2500t1_max_costs_vulnerability_damage",
-                                "layer": "Terremotos_Tuneles_tr2500t1_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Tuneles"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Terremotos_Tuneles_tr475t1_max_costs_vulnerability_damage",
-                                "layer": "Terremotos_Tuneles_tr475t1_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t1 max costs vulnerability damage"
-                            },
-                            {
                                 "id": "Mapas_de_Danios:Terremotos_Tuneles_tr1000t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Tuneles_tr1000t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
@@ -630,6 +613,18 @@
                                 "layer": "Terremotos_Tuneles_tr200t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr200t1 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Terremotos_Tuneles_tr2500t1_max_costs_vulnerability_damage",
+                                "layer": "Terremotos_Tuneles_tr2500t1_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr2500t1 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Terremotos_Tuneles_tr475t1_max_costs_vulnerability_damage",
+                                "layer": "Terremotos_Tuneles_tr475t1_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr475t1 max costs vulnerability damage"
                             }
                         ]
                     }
@@ -647,7 +642,13 @@
                                 "id": "Mapas_de_Danios:Tsunami_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Obras Drenaje"
+                                "name": " tr100 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Tsunami_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
+                                "layer": "Tsunami_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Obras_Drenaje_tr475_max_costs_vulnerability_damage",
@@ -660,12 +661,6 @@
                                 "layer": "Tsunami_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr50 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Tsunami_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
-                                "layer": "Tsunami_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000 max costs vulnerability damage"
                             }
                         ]
                     },
@@ -677,7 +672,13 @@
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_sobre_canal_tr100_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Puentes sobre canal"
+                                "name": " tr100 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Tsunami_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
+                                "layer": "Tsunami_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_sobre_canal_tr475_max_costs_vulnerability_damage",
@@ -690,12 +691,6 @@
                                 "layer": "Tsunami_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr50 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Tsunami_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
-                                "layer": "Tsunami_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000 max costs vulnerability damage"
                             }
                         ]
                     },
@@ -707,7 +702,13 @@
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_tr100_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Puentes"
+                                "name": " tr100 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Tsunami_Puentes_tr1000_max_costs_vulnerability_damage",
+                                "layer": "Tsunami_Puentes_tr1000_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_tr475_max_costs_vulnerability_damage",
@@ -720,12 +721,6 @@
                                 "layer": "Tsunami_Puentes_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr50 max costs vulnerability damage"
-                            },
-                            {
-                                "id": "Mapas_de_Danios:Tsunami_Puentes_tr1000_max_costs_vulnerability_damage",
-                                "layer": "Tsunami_Puentes_tr1000_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000 max costs vulnerability damage"
                             }
                         ]
                     },
@@ -737,7 +732,7 @@
                                 "id": "Mapas_de_Danios:Tsunami_Red_Vial_tr100",
                                 "layer": "Tsunami_Red_Vial_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Red Vial"
+                                "name": " tr100"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Red_Vial_tr1000",
@@ -764,16 +759,16 @@
                         "name": "Tuneles",
                         "children": [
                             {
-                                "id": "Mapas_de_Danios:Tsunami_Tuneles_tr1000_max_costs_vulnerability_damage",
-                                "layer": "Tsunami_Tuneles_tr1000_max_costs_vulnerability_damage",
-                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Tuneles"
-                            },
-                            {
                                 "id": "Mapas_de_Danios:Tsunami_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
                                 "name": " tr100 max costs vulnerability damage"
+                            },
+                            {
+                                "id": "Mapas_de_Danios:Tsunami_Tuneles_tr1000_max_costs_vulnerability_damage",
+                                "layer": "Tsunami_Tuneles_tr1000_max_costs_vulnerability_damage",
+                                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                                "name": " tr1000 max costs vulnerability damage"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Tuneles_tr475_max_costs_vulnerability_damage",
@@ -790,30 +785,89 @@
                         ]
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Mapas Bases",
+        "id": "Mapas_Bases",
+        "children_names": [
+            "Activos",
+            "Fronteras_administrativas"
+        ],
+        "grand_children_names": [],
+        "children": [
+            {
+                "id": "Mapas_Bases:Centros_Poblados_RDom_wgs84",
+                "layer": "Centros_Poblados_RDom_wgs84",
+                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                "name": "Centros Poblados RDom wgs84"
             },
             {
-                "id": "Mapas_de_Danios:Peajes_RDom_wgs84",
-                "layer": "Peajes_RDom_wgs84",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Peajes RDom wgs84"
+                "id": "Activos",
+                "name": "Activos",
+                "children": [
+                    {
+                        "id": "Mapas_Bases:Activos_Obras_Drenaje_RDom_wgs84",
+                        "layer": "Activos_Obras_Drenaje_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Obras Drenaje RDom wgs84"
+                    },
+                    {
+                        "id": "Mapas_Bases:Activos_Peajes_RDom_wgs84",
+                        "layer": "Activos_Peajes_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Peajes RDom wgs84"
+                    },
+                    {
+                        "id": "Mapas_Bases:Activos_Puentes_RDom_wgs84",
+                        "layer": "Activos_Puentes_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Puentes RDom wgs84"
+                    },
+                    {
+                        "id": "Mapas_Bases:Activos_Puentes_sobre_Canal_RDom_wgs84",
+                        "layer": "Activos_Puentes_sobre_Canal_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Puentes sobre Canal RDom wgs84"
+                    },
+                    {
+                        "id": "Mapas_Bases:Activos_Tuneles_RDom_wgs84",
+                        "layer": "Activos_Tuneles_RDom_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " Tuneles RDom wgs84"
+                    }
+                ]
             },
             {
-                "id": "Mapas_de_Danios:RD_LimAdm_Depto",
-                "layer": "RD_LimAdm_Depto",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "RD LimAdm Depto"
+                "id": "Fronteras_administrativas",
+                "name": "Fronteras_administrativas",
+                "children": [
+                    {
+                        "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Depto",
+                        "layer": "Fronteras_administrativas_RD_LimAdm_Depto",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " RD LimAdm Depto"
+                    },
+                    {
+                        "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Pais",
+                        "layer": "Fronteras_administrativas_RD_LimAdm_Pais",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " RD LimAdm Pais"
+                    },
+                    {
+                        "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Provincias",
+                        "layer": "Fronteras_administrativas_RD_LimAdm_Provincias",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": " RD LimAdm Provincias"
+                    }
+                ]
             },
             {
-                "id": "Mapas_de_Danios:RD_LimAdm_Pais",
-                "layer": "RD_LimAdm_Pais",
+                "id": "Mapas_Bases:Red_Vial_RD_wgs84",
+                "layer": "Red_Vial_RD_wgs84",
                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "RD LimAdm Pais"
-            },
-            {
-                "id": "Mapas_de_Danios:RD_LimAdm_Provincias",
-                "layer": "RD_LimAdm_Provincias",
-                "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "RD LimAdm Provincias"
+                "name": "Red Vial RD wgs84"
             }
         ]
     }
