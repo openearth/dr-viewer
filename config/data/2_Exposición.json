@@ -5,8 +5,8 @@
         "id": "Mapas_de_Exposicion",
         "children_names": [
             "Centros",
-            "Inundacion_Fluvial",
-            "Inundacion_Lluvia_Huracanada",
+            "Inundaci\u00f3n Fluvial",
+            "Inundaci\u00f3n por lluvias Huracanadas",
             "Inundacion_Lluvia",
             "Terremoto",
             "Tsunami"
@@ -21,8 +21,8 @@
         ],
         "children": [
             {
-                "id": "Inundacion_Fluvial",
-                "name": "Inundacion_Fluvial",
+                "id": "Inundaci\u00f3n Fluvial",
+                "name": "Inundaci\u00f3n Fluvial",
                 "children": [
                     {
                         "id": "Puentes_sobre_canal",
@@ -32,55 +32,55 @@
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr2",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2"
+                                "name": "Periodo de retorno 2 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr25",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr25",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr25"
+                                "name": "Periodo de retorno 25 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr50",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr500",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr500",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500"
+                                "name": "Periodo de retorno 500 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr10",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr10",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr10"
+                                "name": "Periodo de retorno 10 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr100",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr1000",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr250",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr250",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr250"
+                                "name": "Periodo de retorno 250 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_sobre_canal_tr5",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr5",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr5"
+                                "name": "Periodo de retorno 5 anos"
                             }
                         ]
                     },
@@ -152,55 +152,55 @@
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr10",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr10",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr10"
+                                "name": "Periodo de retorno 10 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr1000",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr100",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr2",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2"
+                                "name": "Periodo de retorno 2 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr25",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr25",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr25"
+                                "name": "Periodo de retorno 25 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr250",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr250",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr250"
+                                "name": "Periodo de retorno 250 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr5",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr5",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr5"
+                                "name": "Periodo de retorno 5 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr50",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Tuneles_tr500",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr500",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500"
+                                "name": "Periodo de retorno 500 anos"
                             }
                         ]
                     },
@@ -212,55 +212,55 @@
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr10",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr10",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr10"
+                                "name": "Periodo de retorno 10 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr100",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr1000",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr2",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2"
+                                "name": "Periodo de retorno 2 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr25",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr25",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr25"
+                                "name": "Periodo de retorno 25 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr250",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr250",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr250"
+                                "name": "Periodo de retorno 250 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr5",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr5",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr5"
+                                "name": "Periodo de retorno 5 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr50",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Obras_Drenaje_tr500",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr500",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500"
+                                "name": "Periodo de retorno 500 anos"
                             }
                         ]
                     },
@@ -272,43 +272,43 @@
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr10",
                                 "layer": "Inundacion_Fluvial_Puentes_tr10",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr10"
+                                "name": "Periodo de retorno 10 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr1000",
                                 "layer": "Inundacion_Fluvial_Puentes_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr2",
                                 "layer": "Inundacion_Fluvial_Puentes_tr2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2"
+                                "name": "Periodo de retorno 2 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr25",
                                 "layer": "Inundacion_Fluvial_Puentes_tr25",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr25"
+                                "name": "Periodo de retorno 25 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr250",
                                 "layer": "Inundacion_Fluvial_Puentes_tr250",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr250"
+                                "name": "Periodo de retorno 250 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr5",
                                 "layer": "Inundacion_Fluvial_Puentes_tr5",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr5"
+                                "name": "Periodo de retorno 5 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Fluvial_Puentes_tr500",
                                 "layer": "Inundacion_Fluvial_Puentes_tr500",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500"
+                                "name": "Periodo de retorno 500 anos"
                             }
                         ]
                     },
@@ -316,61 +316,61 @@
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr10",
                         "layer": "Inundacion_Fluvial_tr10",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr10"
+                        "name": "Periodo de retorno 10 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr100",
                         "layer": "Inundacion_Fluvial_tr100",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr100"
+                        "name": "Periodo de retorno 100 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr1000",
                         "layer": "Inundacion_Fluvial_tr1000",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr1000"
+                        "name": "Periodo de retorno 1000 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr2",
                         "layer": "Inundacion_Fluvial_tr2",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr2"
+                        "name": "Periodo de retorno 2 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr25",
                         "layer": "Inundacion_Fluvial_tr25",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr25"
+                        "name": "Periodo de retorno 25 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr250",
                         "layer": "Inundacion_Fluvial_tr250",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr250"
+                        "name": "Periodo de retorno 250 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr5",
                         "layer": "Inundacion_Fluvial_tr5",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr5"
+                        "name": "Periodo de retorno 5 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr50",
                         "layer": "Inundacion_Fluvial_tr50",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr50"
+                        "name": "Periodo de retorno 50 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Fluvial_tr500",
                         "layer": "Inundacion_Fluvial_tr500",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr500"
+                        "name": "Periodo de retorno 500 anos"
                     }
                 ]
             },
             {
-                "id": "Inundacion_Lluvia_Huracanada",
-                "name": "Inundacion_Lluvia_Huracanada",
+                "id": "Inundaci\u00f3n por lluvias Huracanadas",
+                "name": "Inundaci\u00f3n por lluvias Huracanadas",
                 "children": [
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr50",
@@ -386,25 +386,25 @@
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr1000",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr50",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500"
+                                "name": "Periodo de retorno 500 anos"
                             }
                         ]
                     },
@@ -434,25 +434,25 @@
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puentes_tr100",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puentes_tr1000",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puentes_tr50",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Puentes_tr500",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr500",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500"
+                                "name": "Periodo de retorno 500 anos"
                             }
                         ]
                     },
@@ -464,19 +464,19 @@
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Red_Vial_tr100",
                                 "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Red_Vial_tr1000",
                                 "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Red_Vial_tr500",
                                 "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr500",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500"
+                                "name": "Periodo de retorno 500 anos"
                             }
                         ]
                     },
@@ -488,25 +488,25 @@
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Tuneles_tr100",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Tuneles_tr1000",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Tuneles_tr50",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_Tuneles_tr500",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr500",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr500"
+                                "name": "Periodo de retorno 500 anos"
                             }
                         ]
                     },
@@ -514,25 +514,25 @@
                         "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_tr100",
                         "layer": "Inundacion_Lluvia_Huracanada_tr100",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr100"
+                        "name": "Periodo de retorno 100 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_tr1000",
                         "layer": "Inundacion_Lluvia_Huracanada_tr1000",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr1000"
+                        "name": "Periodo de retorno 1000 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_tr50",
                         "layer": "Inundacion_Lluvia_Huracanada_tr50",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr50"
+                        "name": "Periodo de retorno 50 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Inundacion_Lluvia_Huracanada_tr500",
                         "layer": "Inundacion_Lluvia_Huracanada_tr500",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr500"
+                        "name": "Periodo de retorno 500 anos"
                     }
                 ]
             },
@@ -548,49 +548,49 @@
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr1000t1",
                                 "layer": "Terremoto_Obras_Drenaje_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t1"
+                                "name": "Periodo de retorno 1000 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr1000t2",
                                 "layer": "Terremoto_Obras_Drenaje_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t2"
+                                "name": "Periodo de retorno 1000 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr200t1",
                                 "layer": "Terremoto_Obras_Drenaje_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t1"
+                                "name": "Periodo de retorno 200 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr200t2",
                                 "layer": "Terremoto_Obras_Drenaje_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t2"
+                                "name": "Periodo de retorno 200 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr2500t1",
                                 "layer": "Terremoto_Obras_Drenaje_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t1"
+                                "name": "Periodo de retorno 2500 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr2500t2",
                                 "layer": "Terremoto_Obras_Drenaje_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t2"
+                                "name": "Periodo de retorno 2500 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr475t1",
                                 "layer": "Terremoto_Obras_Drenaje_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t1"
+                                "name": "Periodo de retorno 475 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr475t2",
                                 "layer": "Terremoto_Obras_Drenaje_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t2"
+                                "name": "Periodo de retorno 475 anost2"
                             }
                         ]
                     },
@@ -602,49 +602,49 @@
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr1000t1",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t1"
+                                "name": "Periodo de retorno 1000 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr1000t2",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t2"
+                                "name": "Periodo de retorno 1000 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr200t1",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t1"
+                                "name": "Periodo de retorno 200 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr200t2",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t2"
+                                "name": "Periodo de retorno 200 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr2500t1",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t1"
+                                "name": "Periodo de retorno 2500 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr2500t2",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t2"
+                                "name": "Periodo de retorno 2500 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr475t1",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t1"
+                                "name": "Periodo de retorno 475 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr475t2",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t2"
+                                "name": "Periodo de retorno 475 anost2"
                             }
                         ]
                     },
@@ -656,49 +656,49 @@
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr1000t1",
                                 "layer": "Terremotos_Puentes_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t1"
+                                "name": "Periodo de retorno 1000 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr1000t2",
                                 "layer": "Terremotos_Puentes_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t2"
+                                "name": "Periodo de retorno 1000 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr200t1",
                                 "layer": "Terremotos_Puentes_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t1"
+                                "name": "Periodo de retorno 200 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr200t2",
                                 "layer": "Terremotos_Puentes_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t2"
+                                "name": "Periodo de retorno 200 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr2500t1",
                                 "layer": "Terremotos_Puentes_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t1"
+                                "name": "Periodo de retorno 2500 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr2500t2",
                                 "layer": "Terremotos_Puentes_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t2"
+                                "name": "Periodo de retorno 2500 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr475t1",
                                 "layer": "Terremotos_Puentes_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t1"
+                                "name": "Periodo de retorno 475 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr475t2",
                                 "layer": "Terremotos_Puentes_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t2"
+                                "name": "Periodo de retorno 475 anost2"
                             }
                         ]
                     },
@@ -710,49 +710,49 @@
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr1000t1",
                                 "layer": "Terremotos_Red_Vial_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t1"
+                                "name": "Periodo de retorno 1000 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr1000t2",
                                 "layer": "Terremotos_Red_Vial_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t2"
+                                "name": "Periodo de retorno 1000 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr200t1",
                                 "layer": "Terremotos_Red_Vial_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t1"
+                                "name": "Periodo de retorno 200 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr200t2",
                                 "layer": "Terremotos_Red_Vial_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t2"
+                                "name": "Periodo de retorno 200 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr2500t1",
                                 "layer": "Terremotos_Red_Vial_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t1"
+                                "name": "Periodo de retorno 2500 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr2500t2",
                                 "layer": "Terremotos_Red_Vial_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t2"
+                                "name": "Periodo de retorno 2500 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr475t1",
                                 "layer": "Terremotos_Red_Vial_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t1"
+                                "name": "Periodo de retorno 475 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr475t2",
                                 "layer": "Terremotos_Red_Vial_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t2"
+                                "name": "Periodo de retorno 475 anost2"
                             }
                         ]
                     },
@@ -764,49 +764,49 @@
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr1000t1",
                                 "layer": "Terremotos_Tuneles_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t1"
+                                "name": "Periodo de retorno 1000 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr1000t2",
                                 "layer": "Terremotos_Tuneles_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000t2"
+                                "name": "Periodo de retorno 1000 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr200t1",
                                 "layer": "Terremotos_Tuneles_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t1"
+                                "name": "Periodo de retorno 200 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr200t2",
                                 "layer": "Terremotos_Tuneles_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr200t2"
+                                "name": "Periodo de retorno 200 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr2500t1",
                                 "layer": "Terremotos_Tuneles_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t1"
+                                "name": "Periodo de retorno 2500 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr2500t2",
                                 "layer": "Terremotos_Tuneles_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr2500t2"
+                                "name": "Periodo de retorno 2500 anost2"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr475t1",
                                 "layer": "Terremotos_Tuneles_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t1"
+                                "name": "Periodo de retorno 475 anost1"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr475t2",
                                 "layer": "Terremotos_Tuneles_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475t2"
+                                "name": "Periodo de retorno 475 anost2"
                             }
                         ]
                     }
@@ -824,25 +824,25 @@
                                 "id": "Mapas_de_Exposicion:Tsunami_Obras_Drenaje_tr100",
                                 "layer": "Tsunami_Obras_Drenaje_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Obras_Drenaje_tr1000",
                                 "layer": "Tsunami_Obras_Drenaje_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Obras_Drenaje_tr475",
                                 "layer": "Tsunami_Obras_Drenaje_tr475",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475"
+                                "name": "Periodo de retorno 475 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Obras_Drenaje_tr50",
                                 "layer": "Tsunami_Obras_Drenaje_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             }
                         ]
                     },
@@ -854,25 +854,25 @@
                                 "id": "Mapas_de_Exposicion:Tsunami_Puentes_sobre_canal_tr100",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Puentes_sobre_canal_tr1000",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Puentes_sobre_canal_tr475",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr475",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475"
+                                "name": "Periodo de retorno 475 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Puentes_sobre_canal_tr50",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             }
                         ]
                     },
@@ -884,25 +884,25 @@
                                 "id": "Mapas_de_Exposicion:Tsunami_Puentes_tr100",
                                 "layer": "Tsunami_Puentes_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Puentes_tr1000",
                                 "layer": "Tsunami_Puentes_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Puentes_tr475",
                                 "layer": "Tsunami_Puentes_tr475",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475"
+                                "name": "Periodo de retorno 475 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Puentes_tr50",
                                 "layer": "Tsunami_Puentes_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             }
                         ]
                     },
@@ -914,25 +914,25 @@
                                 "id": "Mapas_de_Exposicion:Tsunami_Red_Vial_tr100",
                                 "layer": "Tsunami_Red_Vial_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Red_Vial_tr1000",
                                 "layer": "Tsunami_Red_Vial_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Red_Vial_tr475",
                                 "layer": "Tsunami_Red_Vial_tr475",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475"
+                                "name": "Periodo de retorno 475 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Red_Vial_tr50",
                                 "layer": "Tsunami_Red_Vial_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             }
                         ]
                     },
@@ -944,25 +944,25 @@
                                 "id": "Mapas_de_Exposicion:Tsunami_Tuneles_tr100",
                                 "layer": "Tsunami_Tuneles_tr100",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr100"
+                                "name": "Periodo de retorno 100 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Tuneles_tr1000",
                                 "layer": "Tsunami_Tuneles_tr1000",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr1000"
+                                "name": "Periodo de retorno 1000 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Tuneles_tr475",
                                 "layer": "Tsunami_Tuneles_tr475",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr475"
+                                "name": "Periodo de retorno 475 anos"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Tsunami_Tuneles_tr50",
                                 "layer": "Tsunami_Tuneles_tr50",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " tr50"
+                                "name": "Periodo de retorno 50 anos"
                             }
                         ]
                     },
@@ -970,25 +970,25 @@
                         "id": "Mapas_de_Exposicion:Tsunami_tr100",
                         "layer": "Tsunami_tr100",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr100"
+                        "name": "Periodo de retorno 100 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Tsunami_tr1000",
                         "layer": "Tsunami_tr1000",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr1000"
+                        "name": "Periodo de retorno 1000 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Tsunami_tr475",
                         "layer": "Tsunami_tr475",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr475"
+                        "name": "Periodo de retorno 475 anos"
                     },
                     {
                         "id": "Mapas_de_Exposicion:Tsunami_tr50",
                         "layer": "Tsunami_tr50",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr50"
+                        "name": "Periodo de retorno 50 anos"
                     }
                 ]
             },
@@ -1043,7 +1043,7 @@
         ]
     },
     {
-        "name": "Mapas Bases",
+        "name": "Mapas de Bases",
         "id": "Mapas_Bases",
         "children_names": [
             "Activos",

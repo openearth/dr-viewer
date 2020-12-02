@@ -4,8 +4,8 @@
         "name": "Amenazas",
         "id": "Mapas_de_Amenazas",
         "children_names": [
-            "Inundacion_Fluvial",
-            "Inundacion_Lluvia_Huracanada",
+            "Inundacion Fluvial",
+            "Inundacion Lluvia Huracanada",
             "Terremoto",
             "SISMO_RD",
             "Tsunami"
@@ -19,92 +19,92 @@
                 "name": "Deslizmientos Tierra"
             },
             {
-                "id": "Inundacion_Fluvial",
-                "name": "Inundacion_Fluvial",
+                "id": "Inundación Fluvial",
+                "name": "Inundación Fluvial",
                 "children": [
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr10",
                         "layer": "Inundacion_Fluvial_tr10",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr10"
+                        "name": "Periodo de retorno 10 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr100",
                         "layer": "Inundacion_Fluvial_tr100",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr100"
+                        "name": "Periodo de retorno 100 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr1000",
                         "layer": "Inundacion_Fluvial_tr1000",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr1000"
+                        "name": "Periodo de retorno 1000 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr2",
                         "layer": "Inundacion_Fluvial_tr2",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr2"
+                        "name": "Periodo de retorno 2 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr25",
                         "layer": "Inundacion_Fluvial_tr25",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr25"
+                        "name": "Periodo de retorno 25 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr250",
                         "layer": "Inundacion_Fluvial_tr250",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr250"
+                        "name": "Periodo de retorno 250 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr5",
                         "layer": "Inundacion_Fluvial_tr5",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr5"
+                        "name": "Periodo de retorno 5 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr50",
                         "layer": "Inundacion_Fluvial_tr50",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr50"
+                        "name": "Periodo de retorno 50 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr500",
                         "layer": "Inundacion_Fluvial_tr500",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr500"
+                        "name": "Periodo de retorno 500 anos"
                     }
                 ]
             },
             {
-                "id": "Inundacion_Lluvia_Huracanada",
-                "name": "Inundacion_Lluvia_Huracanada",
+                "id": "Inundación por lluvias Huracanadas",
+                "name": "Inundación por lluvias Huracanadas",
                 "children": [
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr100",
                         "layer": "Inundacion_Lluvia_Huracanada_tr100",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr100"
+                        "name": "Periodo de retorno 100 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr1000",
                         "layer": "Inundacion_Lluvia_Huracanada_tr1000",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr1000"
+                        "name": "Periodo de retorno 1000 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr50",
                         "layer": "Inundacion_Lluvia_Huracanada_tr50",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr50"
+                        "name": "Periodo de retorno 50 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr500",
                         "layer": "Inundacion_Lluvia_Huracanada_tr500",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr500"
+                        "name": "Periodo de retorno 500 anos"
                     }
                 ]
             },
@@ -170,32 +170,32 @@
                         "id": "Mapas_de_Amenazas:Tsunami_tr100",
                         "layer": "Tsunami_tr100",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr100"
+                        "name": "Periodo de retorno 100 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Tsunami_tr1000",
                         "layer": "Tsunami_tr1000",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr1000"
+                        "name": "Periodo de retorno 1000 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Tsunami_tr475",
                         "layer": "Tsunami_tr475",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr475"
+                        "name": "Periodo de retorno 475 anos"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Tsunami_tr50",
                         "layer": "Tsunami_tr50",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " tr50"
+                        "name": "Periodo de retorno 50 anos"
                     }
                 ]
             }
         ]
     },
     {
-        "name": "Mapas Bases",
+        "name": "Mapas de Bases",
         "id": "Mapas_Bases",
         "children_names": [
             "Activos",

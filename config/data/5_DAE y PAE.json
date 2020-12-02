@@ -25,25 +25,25 @@
                                 "id": "DAE_y_PAE:Red_Vial_EAD_IF",
                                 "layer": "Red_Vial_EAD_IF",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " IF"
+                                "name": " Inundaciones Fluviales"
                             },
                             {
                                 "id": "DAE_y_PAE:Red_Vial_EAD_ILH",
                                 "layer": "Red_Vial_EAD_ILH",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " ILH"
+                                "name": " Inundaciones por lluvias huracanadas"
                             },
                             {
                                 "id": "DAE_y_PAE:Red_Vial_EAD_TER",
                                 "layer": "Red_Vial_EAD_TER",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " TER"
+                                "name": " Terremotos"
                             },
                             {
                                 "id": "DAE_y_PAE:Red_Vial_EAD_TSU",
                                 "layer": "Red_Vial_EAD_TSU",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " TSU"
+                                "name": " Tsunamis"
                             },
                             {
                                 "id": "DAE_y_PAE:Red_Vial_EAD_Total",
@@ -61,25 +61,25 @@
                                 "id": "DAE_y_PAE:Red_Vial_EAL_IF",
                                 "layer": "Red_Vial_EAL_IF",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " IF"
+                                "name": " Inundaciones Fluviales"
                             },
                             {
                                 "id": "DAE_y_PAE:Red_Vial_EAL_ILH",
                                 "layer": "Red_Vial_EAL_ILH",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " ILH"
+                                "name": " Inundaciones por lluvias huracanadas"
                             },
                             {
                                 "id": "DAE_y_PAE:Red_Vial_EAL_TER",
                                 "layer": "Red_Vial_EAL_TER",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " TER"
+                                "name": " Terremotos"
                             },
                             {
                                 "id": "DAE_y_PAE:Red_Vial_EAL_TSU",
                                 "layer": "Red_Vial_EAL_TSU",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " TSU"
+                                "name": " Tsunamis"
                             },
                             {
                                 "id": "DAE_y_PAE:Red_Vial_EAL_Total",
@@ -94,7 +94,7 @@
         ]
     },
     {
-        "name": "Mapas Bases",
+        "name": "Mapas de Bases",
         "id": "Mapas_Bases",
         "children_names": [
             "Activos",
