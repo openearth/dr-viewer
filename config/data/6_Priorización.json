@@ -1,0 +1,153 @@
+[
+    {
+        "filename": "6_Priorizacion",
+        "name": "Priorización",
+        "id": "priorizacion",
+        "children_names": [],
+        "grand_children_names": [
+          "Fluvial",
+          "Terremotos",
+          "Total"],
+        "children": [
+          {
+              "id": "Fluvial",
+              "name": "Fluvial",
+              "children": [
+                {
+                    "id": "priorizacion:priorizacion_fluvial_1",
+                    "layer": "priorizacion_fluvial_1",
+                    "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                    "name": "Matriz 1"
+                },
+                {
+                    "id": "priorizacion:priorizacion_fluvial_2",
+                    "layer": "priorizacion_fluvial_2",
+                    "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                    "name": "Matriz 2"
+                }
+              ]
+            },
+
+            {
+                  "id": "Terremotos",
+                  "name": "Terremotos",
+                  "children": [
+                  {
+                      "id": "priorizacion:priorizacion_terremotos_1",
+                      "layer": "priorizacion_terremotos_1",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Matriz 1"
+                  },
+                  {
+                      "id": "priorizacion:priorizacion_terremotos_2",
+                      "layer": "priorizacion_terremotos_2",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Matriz 2"
+                  }
+                ]
+              },
+              {
+                    "id": "Total",
+                    "name": "Total",
+                    "children": [
+                    {
+                        "id": "priorizacion:priorizacion_total_1",
+                        "layer": "priorizacion_total_1",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": "Matriz 1"
+                    },
+                    {
+                        "id": "priorizacion:priorizacion_total_2",
+                        "layer": "priorizacion_total_2",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": "Matriz 2"
+                    }
+                  ]
+                }
+
+        ]
+    },
+    {
+      "name": "Mapas de Base",
+      "id": "Mapas_Bases",
+      "children_names": [
+          "Activos",
+          "Fronteras_administrativas"
+      ],
+      "grand_children_names": [],
+      "children": [
+          {
+              "id": "Mapas_Bases:Centros_Poblados_RDom_wgs84",
+              "layer": "Centros_Poblados_RDom_wgs84",
+              "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+              "name": "Centros Poblados RDom"
+          },
+          {
+              "id": "Activos",
+              "name": "Activos",
+              "children": [
+                  {
+                      "id": "Mapas_Bases:Activos_Obras_Drenaje_RDom_wgs84",
+                      "layer": "Activos_Obras_Drenaje_RDom_wgs84",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": " Obras Drenaje RDom"
+                  },
+                  {
+                      "id": "Mapas_Bases:Activos_Peajes_RDom_wgs84",
+                      "layer": "Activos_Peajes_RDom_wgs84",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": " Peajes RDom"
+                  },
+                  {
+                      "id": "Mapas_Bases:Activos_Puentes_RDom_wgs84",
+                      "layer": "Activos_Puentes_RDom_wgs84",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": " Puentes RDom"
+                  },
+                  {
+                      "id": "Mapas_Bases:Activos_Puentes_sobre_Canal_RDom_wgs84",
+                      "layer": "Activos_Puentes_sobre_Canal_RDom_wgs84",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": " Puentes sobre Canal RDom"
+                  },
+                  {
+                      "id": "Mapas_Bases:Activos_Tuneles_RDom_wgs84",
+                      "layer": "Activos_Tuneles_RDom_wgs84",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": " Túneles RDom"
+                  }
+              ]
+          },
+          {
+              "id": "Fronteras_administrativas",
+              "name": "Fronteras_administrativas",
+              "children": [
+                  {
+                      "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Depto",
+                      "layer": "Fronteras_administrativas_RD_LimAdm_Depto",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Departamentos "
+                  },
+                  {
+                      "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Pais",
+                      "layer": "Fronteras_administrativas_RD_LimAdm_Pais",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "País"
+                  },
+                  {
+                      "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Provincias",
+                      "layer": "Fronteras_administrativas_RD_LimAdm_Provincias",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Provincias"
+                  }
+              ]
+          },
+          {
+              "id": "Mapas_Bases:Red_Vial_RD_wgs84",
+              "layer": "Red_Vial_RD_wgs84",
+              "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+              "name": "Red Vial RD"
+          }
+      ]
+  }
+]
