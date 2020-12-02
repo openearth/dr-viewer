@@ -1,7 +1,7 @@
 [
     {
         "filename": "3_Danios",
-        "name": "Dañios",
+        "name": "Daños",
         "id": "Mapas_de_Danios",
         "children_names": [
             "Inundaci\u00f3n Fluvial",
@@ -30,55 +30,55 @@
                               "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr2_max_costs_vulnerability_damage",
                               "layer": "Inundacion_Fluvial_Obras_Drenaje_tr2_max_costs_vulnerability_damage",
                               "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                              "name": "Periodo de retorno 2 años max costs vulnerability damage"
+                              "name": "Periodo de retorno 2 años"
                             },
                             {
                               "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr5_max_costs_vulnerability_damage",
                               "layer": "Inundacion_Fluvial_Obras_Drenaje_tr5_max_costs_vulnerability_damage",
                               "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                              "name": "Periodo de retorno 5 años max costs vulnerability damage"
+                              "name": "Periodo de retorno 5 años"
                             },
                             {
                               "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr10_max_costs_vulnerability_damage",
                               "layer": "Inundacion_Fluvial_Obras_Drenaje_tr10_max_costs_vulnerability_damage",
                               "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                              "name": "Periodo de retorno 10 años max costs vulnerability damage"
+                              "name": "Periodo de retorno 10 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr25_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr25_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 25 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 25 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr250_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr250_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 250 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 250 años"
                             },
                             {
                               "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
                               "layer": "Inundacion_Fluvial_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
                               "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                              "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                              "name": "Periodo de retorno 500 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             }
                         ]
                     },
@@ -90,55 +90,55 @@
                             "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr2_max_costs_vulnerability_damage",
                             "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr2_max_costs_vulnerability_damage",
                             "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                            "name": "Periodo de retorno 2 años max costs vulnerability damage"
+                            "name": "Periodo de retorno 2 años"
                           },
                           {
                             "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr5_max_costs_vulnerability_damage",
                             "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr5_max_costs_vulnerability_damage",
                             "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                            "name": "Periodo de retorno 5 años max costs vulnerability damage"
+                            "name": "Periodo de retorno 5 años"
                           },
                           {
                               "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr10_max_costs_vulnerability_damage",
                               "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr10_max_costs_vulnerability_damage",
                               "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                              "name": "Periodo de retorno 10 años max costs vulnerability damage"
+                              "name": "Periodo de retorno 10 años"
                           },
                           {
                               "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr25_max_costs_vulnerability_damage",
                               "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr25_max_costs_vulnerability_damage",
                               "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                              "name": "Periodo de retorno 25 años max costs vulnerability damage"
+                              "name": "Periodo de retorno 25 años"
                           },
                           {
                             "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
                             "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
                             "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                            "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                            "name": "Periodo de retorno 50 años"
                         },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr250_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr250_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 250 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 250 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 500 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             }
                         ]
                     },
@@ -150,55 +150,55 @@
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr10_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr10_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 10 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 10 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr2_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 2 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 2 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr25_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr25_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 25 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 25 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr250_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr250_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 250 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 250 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr5_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr5_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 5 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 5 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Puentes_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Puentes_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 500 años"
                             }
                         ]
                     },
@@ -210,55 +210,55 @@
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr10_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr10_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr10 max costs vulnerability damage"
+                                "name": "Periodo de retorno 10 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr100 max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr1000 max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr2_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr2 max costs vulnerability damage"
+                                "name": "Periodo de retorno 2 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr25_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr25_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr25 max costs vulnerability damage"
+                                "name": "Periodo de retorno 25 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr250_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr250_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr250 max costs vulnerability damage"
+                                "name": "Periodo de retorno 250 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr5_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr5_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr5 max costs vulnerability damage"
+                                "name": "Periodo de retorno 5 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_Tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_Tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": " Tr50 max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Red_Vial_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Red_Vial_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 500 años"
                             }
                         ]
                     },
@@ -270,63 +270,63 @@
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr10_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr10_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 10 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 10 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr2_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 2 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 2 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr25_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr25_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 25 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 25 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr250_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr250_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 250 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 250 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr5_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr5_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 5 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 5 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Fluvial_Tuneles_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Fluvial_Tuneles_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 500 años"
                             }
                         ]
                     }
                 ]
             },
             {
-                "id": "Inundaci\u00f3nn por lluvias Huracanadas",
-                "name": "Inundaci\u00f3nn por lluvias Huracanadas",
+                "id": "Inundaci\u00f3n por lluvias Huracanadas",
+                "name": "Inundaci\u00f3n por lluvias Huracanadas",
                 "children": [
                     {
                         "id": "Obras_Drenaje",
@@ -336,25 +336,25 @@
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Obras_Drenaje_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 500 años"
                             }
                         ]
                     },
@@ -366,25 +366,25 @@
                           "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr1000_max_costs_vulnerability_damage",
                           "layer": "Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr1000_max_costs_vulnerability_damage",
                           "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                          "name": " Puente sobre canal tr1000 max costs vulnerability damage"
+                          "name": " Puente sobre canal tr1000"
                       },
                       {
                           "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr100_max_costs_vulnerability_damage",
                           "layer": "Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr100_max_costs_vulnerability_damage",
                           "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                          "name": " Puente sobre canal tr100 max costs vulnerability damage"
+                          "name": " Puente sobre canal tr100"
                       },
                       {
                         "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr500_max_costs_vulnerability_damage",
                         "layer": "Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr500_max_costs_vulnerability_damage",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " Puente sobre canal tr500 max costs vulnerability damage"
+                        "name": " Puente sobre canal tr500"
                     },
                     {
                         "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr50_max_costs_vulnerability_damage",
                         "layer": "Inundacion_Lluvia_Huracanada_Puente_sobre_canal_tr50_max_costs_vulnerability_damage",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " Puente sobre canal tr50 max costs vulnerability damage"
+                        "name": " Puente sobre canal tr50"
                     }
                       ]
                     },
@@ -396,25 +396,25 @@
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puentes_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puentes_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 500 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puentes_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Puentes_tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Puentes_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             }
                         ]
                     },
@@ -426,25 +426,25 @@
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Tuneles_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 500 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Tuneles_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Tuneles_tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Tuneles_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             }
                         ]
                     },
@@ -456,33 +456,33 @@
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Red_Vial_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Red_Vial_tr100_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Red_Vial_tr500_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr500_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 500 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 500 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Inundacion_Lluvia_Huracanada_Red_Vial_tr50_max_costs_vulnerability_damage",
                                 "layer": "Inundacion_Lluvia_Huracanada_Red_Vial_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             }
                         ]
                     }
                 ]
             },
             {
-                "id": "Terremoto",
-                "name": "Terremoto",
+                "id": "Terremotos",
+                "name": "Terremotos",
                 "children": [
                     {
                         "id": "Obras_Drenaje",
@@ -492,25 +492,25 @@
                                 "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr1000t1_max_costs_vulnerability_damage",
                                 "layer": "Terremoto_Obras_Drenaje_tr1000t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr200t1_max_costs_vulnerability_damage",
                                 "layer": "Terremoto_Obras_Drenaje_tr200t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 200 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 200 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr2500t1_max_costs_vulnerability_damage",
                                 "layer": "Terremoto_Obras_Drenaje_tr2500t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 2500 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 2500 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremoto_Obras_Drenaje_tr475t1_max_costs_vulnerability_damage",
                                 "layer": "Terremoto_Obras_Drenaje_tr475t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 añost1"
                             }
                         ]
                     },
@@ -522,25 +522,25 @@
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_sobre_canal_tr1000t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr1000t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_sobre_canal_tr200t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr200t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 200 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 200 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_sobre_canal_tr2500t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr2500t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 2500 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 2500 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_sobre_canal_tr475t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr475t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 añost1"
                             }
                         ]
                     },
@@ -552,25 +552,25 @@
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_tr1000t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_tr1000t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_tr200t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_tr200t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 200 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 200 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_tr2500t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_tr2500t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 2500 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 2500 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Puentes_tr475t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Puentes_tr475t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 añost1"
                             }
                         ]
                     },
@@ -582,25 +582,25 @@
                                 "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr1000t2_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Red_Vial_tr1000t2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 añost2 max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 añost2"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr200t2_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Red_Vial_tr200t2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 200 añost2 max costs vulnerability damage"
+                                "name": "Periodo de retorno 200 añost2"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr2500t2_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Red_Vial_tr2500t2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 2500 añost2 max costs vulnerability damage"
+                                "name": "Periodo de retorno 2500 añost2"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Red_Vial_tr475t2_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Red_Vial_tr475t2_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 añost2 max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 añost2"
                             }
                         ]
                     },
@@ -612,25 +612,25 @@
                                 "id": "Mapas_de_Danios:Terremotos_Tuneles_tr1000t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Tuneles_tr1000t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Tuneles_tr200t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Tuneles_tr200t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 200 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 200 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Tuneles_tr2500t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Tuneles_tr2500t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 2500 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 2500 añost1"
                             },
                             {
                                 "id": "Mapas_de_Danios:Terremotos_Tuneles_tr475t1_max_costs_vulnerability_damage",
                                 "layer": "Terremotos_Tuneles_tr475t1_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 añost1 max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 añost1"
                             }
                         ]
                     }
@@ -648,25 +648,25 @@
                                 "id": "Mapas_de_Danios:Tsunami_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Obras_Drenaje_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Obras_Drenaje_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Obras_Drenaje_tr475_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Obras_Drenaje_tr475_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Obras_Drenaje_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             }
                         ]
                     },
@@ -678,25 +678,25 @@
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_sobre_canal_tr100_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_sobre_canal_tr475_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr475_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_sobre_canal_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             }
                         ]
                     },
@@ -708,25 +708,25 @@
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_tr100_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_tr475_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_tr475_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Puentes_tr50_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Puentes_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             }
                         ]
                     },
@@ -768,25 +768,25 @@
                                 "id": "Mapas_de_Danios:Tsunami_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Tuneles_tr100_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 100 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 100 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Tuneles_tr1000_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Tuneles_tr1000_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 1000 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 1000 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Tuneles_tr475_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Tuneles_tr475_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 475 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 475 años"
                             },
                             {
                                 "id": "Mapas_de_Danios:Tsunami_Tuneles_tr50_max_costs_vulnerability_damage",
                                 "layer": "Tsunami_Tuneles_tr50_max_costs_vulnerability_damage",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de retorno 50 años max costs vulnerability damage"
+                                "name": "Periodo de retorno 50 años"
                             }
                         ]
                     }

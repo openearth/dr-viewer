@@ -16,7 +16,7 @@
                 "id": "Mapas_de_Amenazas:Deslizmientos_Tierra",
                 "layer": "Deslizmientos_Tierra",
                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Deslizmientos Tierra"
+                "name": "Deslizamientos Tierra"
             },
             {
                 "id": "Inundación Fluvial",
