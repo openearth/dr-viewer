@@ -23,59 +23,59 @@
                 "name": "Inundación Fluvial",
                 "children": [
                     {
-                        "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr10",
-                        "layer": "Inundacion_Fluvial_tr10",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 10 anos"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr100",
-                        "layer": "Inundacion_Fluvial_tr100",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 100 anos"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr1000",
-                        "layer": "Inundacion_Fluvial_tr1000",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 1000 anos"
-                    },
-                    {
                         "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr2",
                         "layer": "Inundacion_Fluvial_tr2",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 2 anos"
+                        "name": "Periodo de retorno 2 años"
                     },
                     {
-                        "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr25",
-                        "layer": "Inundacion_Fluvial_tr25",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 25 anos"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr250",
-                        "layer": "Inundacion_Fluvial_tr250",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 250 anos"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr5",
-                        "layer": "Inundacion_Fluvial_tr5",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 5 anos"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr50",
-                        "layer": "Inundacion_Fluvial_tr50",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 50 anos"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr500",
-                        "layer": "Inundacion_Fluvial_tr500",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 500 anos"
-                    }
+                      "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr5",
+                      "layer": "Inundacion_Fluvial_tr5",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Periodo de retorno 5 años"
+                  },
+                  {
+                      "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr10",
+                      "layer": "Inundacion_Fluvial_tr10",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Periodo de retorno 10 años"
+                  },
+                  {
+                    "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr25",
+                    "layer": "Inundacion_Fluvial_tr25",
+                    "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                    "name": "Periodo de retorno 25 años"
+                  },
+                  {
+                      "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr50",
+                      "layer": "Inundacion_Fluvial_tr50",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Periodo de retorno 50 años"
+                  },
+                  {
+                      "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr100",
+                      "layer": "Inundacion_Fluvial_tr100",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Periodo de retorno 100 años"
+                  },
+                  {
+                    "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr250",
+                    "layer": "Inundacion_Fluvial_tr250",
+                    "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                    "name": "Periodo de retorno 250 años"
+                  },
+                  {
+                      "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr500",
+                      "layer": "Inundacion_Fluvial_tr500",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Periodo de retorno 500 años"
+                  },
+                  {
+                      "id": "Mapas_de_Amenazas:Inundacion_Fluvial_tr1000",
+                      "layer": "Inundacion_Fluvial_tr1000",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Periodo de retorno 1000 años"
+                  }
                 ]
             },
             {
@@ -83,82 +83,82 @@
                 "name": "Inundación por lluvias Huracanadas",
                 "children": [
                     {
-                        "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr100",
-                        "layer": "Inundacion_Lluvia_Huracanada_tr100",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 100 anos"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr1000",
-                        "layer": "Inundacion_Lluvia_Huracanada_tr1000",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 1000 anos"
-                    },
-                    {
                         "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr50",
                         "layer": "Inundacion_Lluvia_Huracanada_tr50",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 50 anos"
+                        "name": "Periodo de retorno 50 años"
+                    },
+                    {
+                        "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr100",
+                        "layer": "Inundacion_Lluvia_Huracanada_tr100",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": "Periodo de retorno 100 años"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr500",
                         "layer": "Inundacion_Lluvia_Huracanada_tr500",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 500 anos"
+                        "name": "Periodo de retorno 500 años"
+                    },
+                    {
+                        "id": "Mapas_de_Amenazas:Inundacion_Lluvia_Huracanada_tr1000",
+                        "layer": "Inundacion_Lluvia_Huracanada_tr1000",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": "Periodo de retorno 1000 años"
                     }
                 ]
             },
             {
-                "id": "SISMO_RD",
-                "name": "SISMO_RD",
-                "children": [
-                    {
-                        "id": "Mapas_de_Amenazas:SISMO_RD_TR1000_TYPE1_RECLASS_wgs84",
-                        "layer": "SISMO_RD_TR1000_TYPE1_RECLASS_wgs84",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " TR1000 TYPE1 RECLASS wgs84"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:SISMO_RD_TR1000_TYPE2_RECLASS_wgs84",
-                        "layer": "SISMO_RD_TR1000_TYPE2_RECLASS_wgs84",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " TR1000 TYPE2 RECLASS wgs84"
-                    },
+              "id": "SISMO_RD",
+              "name": "Terremotos",
+              "children": [
                     {
                         "id": "Mapas_de_Amenazas:SISMO_RD_TR200_TYPE1_RECLASS_wgs84",
                         "layer": "SISMO_RD_TR200_TYPE1_RECLASS_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " TR200 TYPE1 RECLASS wgs84"
+                        "name": "Periodo de retorno 200 años - Sisimo"
                     },
                     {
                         "id": "Mapas_de_Amenazas:SISMO_RD_TR200_TYPE2_RECLASS_wgs84",
                         "layer": "SISMO_RD_TR200_TYPE2_RECLASS_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " TR200 TYPE2 RECLASS wgs84"
+                        "name": "Periodo de retorno 200 años - Sisimo + Licuefacción"
+                      },
+                      {
+                          "id": "Mapas_de_Amenazas:SISMO_RD_TR475_TYPE1_RECLASS_wgs84",
+                          "layer": "SISMO_RD_TR475_TYPE1_RECLASS_wgs84",
+                          "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                          "name": "Periodo de retorno 475 años - Sisimo"
+                      },
+                      {
+                          "id": "Mapas_de_Amenazas:SISMO_RD_TR475_TYPE2_RECLASS_wgs84",
+                          "layer": "SISMO_RD_TR475_TYPE2_RECLASS_wgs84",
+                          "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                          "name": "Periodo de retorno 475 años - Sisimo + Licuefacción"
+                      },
+                      {
+                      "id": "Mapas_de_Amenazas:SISMO_RD_TR1000_TYPE1_RECLASS_wgs84",
+                      "layer": "SISMO_RD_TR1000_TYPE1_RECLASS_wgs84",
+                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                      "name": "Periodo de retorno 1000 años - Sisimo "
+                    },
+                    {
+                        "id": "Mapas_de_Amenazas:SISMO_RD_TR1000_TYPE2_RECLASS_wgs84",
+                        "layer": "SISMO_RD_TR1000_TYPE2_RECLASS_wgs84",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": "Periodo de retorno 1000 años - Sisimo + Licuefacción"
                     },
                     {
                         "id": "Mapas_de_Amenazas:SISMO_RD_TR2500_TYPE1_RECLASS_wgs84",
                         "layer": "SISMO_RD_TR2500_TYPE1_RECLASS_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " TR2500 TYPE1 RECLASS wgs84"
+                        "name": "Periodo de retorno 2500 años - Sisimo"
                     },
                     {
                         "id": "Mapas_de_Amenazas:SISMO_RD_TR2500_TYPE2_RECLASS_wgs84",
                         "layer": "SISMO_RD_TR2500_TYPE2_RECLASS_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " TR2500 TYPE2 RECLASS wgs84"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:SISMO_RD_TR475_TYPE1_RECLASS_wgs84",
-                        "layer": "SISMO_RD_TR475_TYPE1_RECLASS_wgs84",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " TR475 TYPE1 RECLASS wgs84"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:SISMO_RD_TR475_TYPE2_RECLASS_wgs84",
-                        "layer": "SISMO_RD_TR475_TYPE2_RECLASS_wgs84",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " TR475 TYPE2 RECLASS wgs84"
+                        "name": "Periodo de retorno 2500 años - Sisimo + Licuefacción"
                     }
                 ]
             },
@@ -167,35 +167,35 @@
                 "name": "Tsunami",
                 "children": [
                     {
+                        "id": "Mapas_de_Amenazas:Tsunami_tr50",
+                        "layer": "Tsunami_tr50",
+                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                        "name": "Periodo de retorno 50 años"
+                    },
+                    {
                         "id": "Mapas_de_Amenazas:Tsunami_tr100",
                         "layer": "Tsunami_tr100",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 100 anos"
-                    },
-                    {
-                        "id": "Mapas_de_Amenazas:Tsunami_tr1000",
-                        "layer": "Tsunami_tr1000",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 1000 anos"
+                        "name": "Periodo de retorno 100 años"
                     },
                     {
                         "id": "Mapas_de_Amenazas:Tsunami_tr475",
                         "layer": "Tsunami_tr475",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 475 anos"
+                        "name": "Periodo de retorno 475 años"
                     },
                     {
-                        "id": "Mapas_de_Amenazas:Tsunami_tr50",
-                        "layer": "Tsunami_tr50",
+                        "id": "Mapas_de_Amenazas:Tsunami_tr1000",
+                        "layer": "Tsunami_tr1000",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Periodo de retorno 50 anos"
+                        "name": "Periodo de retorno 1000 años"
                     }
                 ]
             }
         ]
     },
     {
-        "name": "Mapas de Bases",
+        "name": "Mapas de Base",
         "id": "Mapas_Bases",
         "children_names": [
             "Activos",
@@ -207,7 +207,7 @@
                 "id": "Mapas_Bases:Centros_Poblados_RDom_wgs84",
                 "layer": "Centros_Poblados_RDom_wgs84",
                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Centros Poblados RDom wgs84"
+                "name": "Centros Poblados RDom"
             },
             {
                 "id": "Activos",
@@ -217,31 +217,31 @@
                         "id": "Mapas_Bases:Activos_Obras_Drenaje_RDom_wgs84",
                         "layer": "Activos_Obras_Drenaje_RDom_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " Obras Drenaje RDom wgs84"
+                        "name": " Obras Drenaje RDom"
                     },
                     {
                         "id": "Mapas_Bases:Activos_Peajes_RDom_wgs84",
                         "layer": "Activos_Peajes_RDom_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " Peajes RDom wgs84"
+                        "name": " Peajes RDom"
                     },
                     {
                         "id": "Mapas_Bases:Activos_Puentes_RDom_wgs84",
                         "layer": "Activos_Puentes_RDom_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " Puentes RDom wgs84"
+                        "name": " Puentes RDom"
                     },
                     {
                         "id": "Mapas_Bases:Activos_Puentes_sobre_Canal_RDom_wgs84",
                         "layer": "Activos_Puentes_sobre_Canal_RDom_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " Puentes sobre Canal RDom wgs84"
+                        "name": " Puentes sobre Canal RDom"
                     },
                     {
                         "id": "Mapas_Bases:Activos_Tuneles_RDom_wgs84",
                         "layer": "Activos_Tuneles_RDom_wgs84",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " Tuneles RDom wgs84"
+                        "name": " Túneles RDom"
                     }
                 ]
             },
@@ -253,19 +253,19 @@
                         "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Depto",
                         "layer": "Fronteras_administrativas_RD_LimAdm_Depto",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " RD LimAdm Depto"
+                        "name": "Departamentos "
                     },
                     {
                         "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Pais",
                         "layer": "Fronteras_administrativas_RD_LimAdm_Pais",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " RD LimAdm Pais"
+                        "name": "País"
                     },
                     {
                         "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Provincias",
                         "layer": "Fronteras_administrativas_RD_LimAdm_Provincias",
                         "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": " RD LimAdm Provincias"
+                        "name": "Provincias"
                     }
                 ]
             },
@@ -273,7 +273,7 @@
                 "id": "Mapas_Bases:Red_Vial_RD_wgs84",
                 "layer": "Red_Vial_RD_wgs84",
                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                "name": "Red Vial RD wgs84"
+                "name": "Red Vial RD"
             }
         ]
     }
