@@ -484,49 +484,49 @@
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr1000t1",
                                 "layer": "Terremoto_Obras_Drenaje_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t1"
+                                "name": "Periodo de r 1000 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr1000t2",
                                 "layer": "Terremoto_Obras_Drenaje_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t2"
+                                "name": "Periodo de r 1000 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr200t1",
                                 "layer": "Terremoto_Obras_Drenaje_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t1"
+                                "name": "Periodo de r 200 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr200t2",
                                 "layer": "Terremoto_Obras_Drenaje_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t2"
+                                "name": "Periodo de r 200 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr2500t1",
                                 "layer": "Terremoto_Obras_Drenaje_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t1"
+                                "name": "Periodo de r 2500 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr2500t2",
                                 "layer": "Terremoto_Obras_Drenaje_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t2"
+                                "name": "Periodo de r 2500 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr475t1",
                                 "layer": "Terremoto_Obras_Drenaje_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t1"
+                                "name": "Periodo de r 475 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremoto_Obras_Drenaje_tr475t2",
                                 "layer": "Terremoto_Obras_Drenaje_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t2"
+                                "name": "Periodo de r 475 años - Sisimo + Licuefacción"
                             }
                         ]
                     },
@@ -538,49 +538,49 @@
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr1000t1",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t1"
+                                "name": "Periodo de r 1000 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr1000t2",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t2"
+                                "name": "Periodo de r 1000 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr200t1",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t1"
+                                "name": "Periodo de r 200 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr200t2",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t2"
+                                "name": "Periodo de r 200 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr2500t1",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t1"
+                                "name": "Periodo de r 2500 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr2500t2",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t2"
+                                "name": "Periodo de r 2500 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr475t1",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t1"
+                                "name": "Periodo de r 475 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_sobre_canal_tr475t2",
                                 "layer": "Terremotos_Puentes_sobre_canal_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t2"
+                                "name": "Periodo de r 475 años - Sisimo + Licuefacción"
                             }
                         ]
                     },
@@ -592,49 +592,49 @@
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr1000t1",
                                 "layer": "Terremotos_Puentes_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t1"
+                                "name": "Periodo de r 1000 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr1000t2",
                                 "layer": "Terremotos_Puentes_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t2"
+                                "name": "Periodo de r 1000 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr200t1",
                                 "layer": "Terremotos_Puentes_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t1"
+                                "name": "Periodo de r 200 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr200t2",
                                 "layer": "Terremotos_Puentes_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t2"
+                                "name": "Periodo de r 200 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr2500t1",
                                 "layer": "Terremotos_Puentes_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t1"
+                                "name": "Periodo de r 2500 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr2500t2",
                                 "layer": "Terremotos_Puentes_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t2"
+                                "name": "Periodo de r 2500 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr475t1",
                                 "layer": "Terremotos_Puentes_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t1"
+                                "name": "Periodo de r 475 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Puentes_tr475t2",
                                 "layer": "Terremotos_Puentes_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t2"
+                                "name": "Periodo de r 475 años - Sisimo + Licuefacción"
                             }
                         ]
                     },
@@ -646,49 +646,49 @@
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr1000t1",
                                 "layer": "Terremotos_Red_Vial_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t1"
+                                "name": "Periodo de r 1000 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr1000t2",
                                 "layer": "Terremotos_Red_Vial_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t2"
+                                "name": "Periodo de r 1000 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr200t1",
                                 "layer": "Terremotos_Red_Vial_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t1"
+                                "name": "Periodo de r 200 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr200t2",
                                 "layer": "Terremotos_Red_Vial_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t2"
+                                "name": "Periodo de r 200 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr2500t1",
                                 "layer": "Terremotos_Red_Vial_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t1"
+                                "name": "Periodo de r 2500 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr2500t2",
                                 "layer": "Terremotos_Red_Vial_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t2"
+                                "name": "Periodo de r 2500 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr475t1",
                                 "layer": "Terremotos_Red_Vial_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t1"
+                                "name": "Periodo de r 475 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Red_Vial_tr475t2",
                                 "layer": "Terremotos_Red_Vial_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t2"
+                                "name": "Periodo de r 475 años - Sisimo + Licuefacción"
                             }
                         ]
                     },
@@ -700,49 +700,49 @@
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr1000t1",
                                 "layer": "Terremotos_Tuneles_tr1000t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t1"
+                                "name": "Periodo de r 1000 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr1000t2",
                                 "layer": "Terremotos_Tuneles_tr1000t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 1000 años-t2"
+                                "name": "Periodo de r 1000 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr200t1",
                                 "layer": "Terremotos_Tuneles_tr200t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t1"
+                                "name": "Periodo de r 200 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr200t2",
                                 "layer": "Terremotos_Tuneles_tr200t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 200 años-t2"
+                                "name": "Periodo de r 200 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr2500t1",
                                 "layer": "Terremotos_Tuneles_tr2500t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t1"
+                                "name": "Periodo de r 2500 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr2500t2",
                                 "layer": "Terremotos_Tuneles_tr2500t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 2500 años-t2"
+                                "name": "Periodo de r 2500 años - Sisimo + Licuefacción"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr475t1",
                                 "layer": "Terremotos_Tuneles_tr475t1",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t1"
+                                "name": "Periodo de r 475 años - Sisimo"
                             },
                             {
                                 "id": "Mapas_de_Exposicion:Terremotos_Tuneles_tr475t2",
                                 "layer": "Terremotos_Tuneles_tr475t2",
                                 "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                                "name": "Periodo de r 475 años-t2"
+                                "name": "Periodo de r 475 años - Sisimo + Licuefacción"
                             }
                         ]
                     }
