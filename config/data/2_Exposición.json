@@ -920,7 +920,7 @@
               "id": "Mapas_Bases:Centros_Poblados_RDom_wgs84",
               "layer": "Centros_Poblados_RDom_wgs84",
               "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-              "name": "Centros Poblados RDom"
+              "name": "Centros Poblados"
           },
           {
               "id": "Activos",
@@ -930,37 +930,37 @@
                       "id": "Mapas_Bases:Activos_Obras_Drenaje_RDom_wgs84",
                       "layer": "Activos_Obras_Drenaje_RDom_wgs84",
                       "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                      "name": " Obras Drenaje RDom"
+                      "name": "Obras Drenaje"
                   },
                   {
                       "id": "Mapas_Bases:Activos_Peajes_RDom_wgs84",
                       "layer": "Activos_Peajes_RDom_wgs84",
                       "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                      "name": " Peajes RDom"
+                      "name": "Peajes"
                   },
                   {
                       "id": "Mapas_Bases:Activos_Puentes_RDom_wgs84",
                       "layer": "Activos_Puentes_RDom_wgs84",
                       "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                      "name": " Puentes RDom"
+                      "name": "Puentes"
                   },
                   {
                       "id": "Mapas_Bases:Activos_Puentes_sobre_Canal_RDom_wgs84",
                       "layer": "Activos_Puentes_sobre_Canal_RDom_wgs84",
                       "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                      "name": " Puentes sobre Canal RDom"
+                      "name": "Puentes sobre Canal"
                   },
                   {
                       "id": "Mapas_Bases:Activos_Tuneles_RDom_wgs84",
                       "layer": "Activos_Tuneles_RDom_wgs84",
                       "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                      "name": " Túneles RDom"
+                      "name": "Túneles"
                   }
               ]
           },
           {
               "id": "Fronteras_administrativas",
-              "name": "Fronteras_administrativas",
+              "name": "Fronteras administrativas",
               "children": [
                   {
                       "id": "Mapas_Bases:Fronteras_administrativas_RD_LimAdm_Depto",
@@ -986,7 +986,7 @@
               "id": "Mapas_Bases:Red_Vial_RD_wgs84",
               "layer": "Red_Vial_RD_wgs84",
               "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-              "name": "Red Vial RD"
+              "name": "Red Vial"
           }
       ]
   }
