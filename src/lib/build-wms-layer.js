@@ -3,7 +3,7 @@ import wms from './wms';
 
 export default ({ url, id, layer, style = '', paint = {} }) => {
   const tile = buildGeoserverUrl({
-    url,
+    url: process.env.VUE_APP_GEOSERVER_BASE_URL,
     service: 'WMS',
     request: 'GetMap',
     layers: id,
