@@ -9,63 +9,25 @@
           "Terremotos",
           "Total"],
         "children": [
-          {
-              "id": "Fluvial",
-              "name": "Fluvial",
-              "children": [
                 {
                     "id": "priorizacion:priorizacion_fluvial_1",
                     "layer": "priorizacion_fluvial_1",
                     "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                    "name": "Matriz 1"
+                    "name": "Matriz 1 Fluvial"
                 },
                 {
-                    "id": "priorizacion:priorizacion_fluvial_2",
-                    "layer": "priorizacion_fluvial_2",
+                    "id": "priorizacion:priorizacion_terremotos_1",
+                    "layer": "priorizacion_terremotos_1",
                     "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                    "name": "Matriz 2"
+                    "name": "Matriz 1 Terremotos"
+                },
+                {
+                    "id": "priorizacion:priorizacion_total_1",
+                    "layer": "priorizacion_total_1",
+                    "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
+                    "name": "Matriz 1 Total"
                 }
-              ]
-            },
-
-            {
-                  "id": "Terremotos",
-                  "name": "Terremotos",
-                  "children": [
-                  {
-                      "id": "priorizacion:priorizacion_terremotos_1",
-                      "layer": "priorizacion_terremotos_1",
-                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                      "name": "Matriz 1"
-                  },
-                  {
-                      "id": "priorizacion:priorizacion_terremotos_2",
-                      "layer": "priorizacion_terremotos_2",
-                      "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                      "name": "Matriz 2"
-                  }
-                ]
-              },
-              {
-                    "id": "Total",
-                    "name": "Total",
-                    "children": [
-                    {
-                        "id": "priorizacion:priorizacion_total_1",
-                        "layer": "priorizacion_total_1",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Matriz 1"
-                    },
-                    {
-                        "id": "priorizacion:priorizacion_total_2",
-                        "layer": "priorizacion_total_2",
-                        "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                        "name": "Matriz 2"
-                    }
-                  ]
-                }
-
-        ]
+                    ]
     },
     {
       "name": "Mapas de Base",
