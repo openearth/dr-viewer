@@ -13,19 +13,19 @@
                     "id": "priorizacion:priorizacion_fluvial_1",
                     "layer": "priorizacion_fluvial_1",
                     "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                    "name": "Matriz 1 Fluvial"
+                    "name": "Fluvial"
                 },
                 {
                     "id": "priorizacion:priorizacion_terremotos_1",
                     "layer": "priorizacion_terremotos_1",
                     "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                    "name": "Matriz 1 Terremotos"
+                    "name": "Terremotos"
                 },
                 {
                     "id": "priorizacion:priorizacion_total_1",
                     "layer": "priorizacion_total_1",
                     "url": "https://visualizaciondr.openearth.eu/geoserver/wms",
-                    "name": "Matriz 1 Total"
+                    "name": "Total"
                 }
                     ]
     },
