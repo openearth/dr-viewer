@@ -1,7 +1,7 @@
 <template>
   <div>
+      <!-- :key="this.$route.params.id" -->
     <layer-list-controls
-      :key="this.$route.params.id"
       :layers="layers"
       @layer-sorting-change="onLayerSortingChange"
       @active-layers-change="onActiveLayerChange"
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { LayerListControls } from '@deltares/vue-components';
+import LayerListControls from '@/components/layer-list-controls';
 import { importConfig } from '@/lib/config-utils'
 
 export default {
